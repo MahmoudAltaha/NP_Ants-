@@ -1,0 +1,4691 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.pseuco.np21.SingleAntEasyChoicesWithFood" tests="5" skipped="0" failures="0" errors="0" timestamp="2022-04-13T21:16:46" hostname="DESKTOP-13VUG62" time="0.304">
+  <properties/>
+  <testcase name="repetition 1 of 5" classname="com.pseuco.np21.SingleAntEasyChoicesWithFood" time="0.068"/>
+  <testcase name="repetition 2 of 5" classname="com.pseuco.np21.SingleAntEasyChoicesWithFood" time="0.054"/>
+  <testcase name="repetition 3 of 5" classname="com.pseuco.np21.SingleAntEasyChoicesWithFood" time="0.052"/>
+  <testcase name="repetition 4 of 5" classname="com.pseuco.np21.SingleAntEasyChoicesWithFood" time="0.089"/>
+  <testcase name="repetition 5 of 5" classname="com.pseuco.np21.SingleAntEasyChoicesWithFood" time="0.035"/>
+  <system-out><![CDATA[############ Logging method invocation #1 on mock/spy ########
+recorder.start();
+   invoked: -> at com.pseuco.np21.Simulator.run(Simulator.java:49)
+   has returned: "null"
+
+############ Logging method invocation #2 on mock/spy ########
+recorder.spawn(
+    Ant{name='Anthony', impatience=2, disguise=1000}
+);
+   invoked: -> at com.pseuco.np21.Ant.run(Ant.java:264)
+   has returned: "null"
+
+############ Logging method invocation #3 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='Hill', trails=2, initialFood=0, capacity=âˆž}
+);
+   invoked: -> at com.pseuco.np21.Ant.run(Ant.java:266)
+   has returned: "null"
+
+############ Logging method invocation #4 on mock/spy ########
+recorder.startFoodSearch(
+    Ant{name='Anthony', impatience=2, disguise=1000}
+);
+   invoked: -> at com.pseuco.np21.Ant.run(Ant.java:271)
+   has returned: "null"
+
+############ Logging method invocation #5 on mock/spy ########
+recorder.startExploration(
+    Ant{name='Anthony', impatience=2, disguise=1000}
+);
+   invoked: -> at com.pseuco.np21.Ant.forwardMoving(Ant.java:187)
+   has returned: "null"
+
+############ Logging method invocation #6 on mock/spy ########
+recorder.select(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='Hill', to='C995'},
+    [Trail{from='Hill', to='C995'}],
+    EXPLORATION
+);
+   invoked: -> at com.pseuco.np21.Ant.forwardMoving(Ant.java:188)
+   has returned: "null"
+
+############ Logging method invocation #7 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='Hill', to='C995'}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:68)
+   has returned: "null"
+
+############ Logging method invocation #8 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='Hill', trails=2, initialFood=0, capacity=âˆž}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:69)
+   has returned: "null"
+
+############ Logging method invocation #9 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C995', trails=3, initialFood=0, capacity=4}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.recorderStuffEnterClearingLeaveTrail(AntRunHandler.java:25)
+   has returned: "null"
+
+############ Logging method invocation #10 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='Hill', to='C995'}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.recorderStuffEnterClearingLeaveTrail(AntRunHandler.java:26)
+   has returned: "null"
+
+############ Logging method invocation #11 on mock/spy ########
+recorder.updateAnthill(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='Hill'},
+    1
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.handleEnterClearingFoodSearch(AntRunHandler.java:101)
+   has returned: "null"
+
+############ Logging method invocation #12 on mock/spy ########
+recorder.select(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='C990'},
+    [Trail{from='C995', to='C990'}],
+    FOOD_SEARCH
+);
+   invoked: -> at com.pseuco.np21.Ant.forwardMoving(Ant.java:183)
+   has returned: "null"
+
+############ Logging method invocation #13 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='C990'}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:68)
+   has returned: "null"
+
+############ Logging method invocation #14 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C995', trails=3, initialFood=0, capacity=4}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:69)
+   has returned: "null"
+
+############ Logging method invocation #15 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C990', trails=1, initialFood=1, capacity=3}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.recorderStuffEnterClearingLeaveTrail(AntRunHandler.java:25)
+   has returned: "null"
+
+############ Logging method invocation #16 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='C990'}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.recorderStuffEnterClearingLeaveTrail(AntRunHandler.java:26)
+   has returned: "null"
+
+############ Logging method invocation #17 on mock/spy ########
+recorder.updateAnthill(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C990', to='C995'},
+    2
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.handleEnterClearingFoodSearch(AntRunHandler.java:101)
+   has returned: "null"
+
+############ Logging method invocation #18 on mock/spy ########
+recorder.pickupFood(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C990', trails=1, initialFood=1, capacity=3}
+);
+   invoked: -> at com.pseuco.np21.Ant.forwardMoving(Ant.java:204)
+   has returned: "null"
+
+############ Logging method invocation #19 on mock/spy ########
+recorder.startFoodReturn(
+    Ant{name='Anthony', impatience=2, disguise=1000}
+);
+   invoked: -> at com.pseuco.np21.Ant.forwardMoving(Ant.java:205)
+   has returned: "null"
+
+############ Logging method invocation #20 on mock/spy ########
+recorder.select(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C990', to='C995'},
+    [Trail{from='C990', to='C995'}],
+    RETURN_IN_SEQUENCE
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.homewardMoving(AntRunHandler.java:219)
+   has returned: "null"
+
+############ Logging method invocation #21 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C990', to='C995'}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:68)
+   has returned: "null"
+
+############ Logging method invocation #22 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C990', trails=1, initialFood=1, capacity=3}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:69)
+   has returned: "null"
+
+############ Logging method invocation #23 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C995', trails=3, initialFood=0, capacity=4}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.recorderStuffEnterClearingLeaveTrail(AntRunHandler.java:25)
+   has returned: "null"
+
+############ Logging method invocation #24 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C990', to='C995'}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.recorderStuffEnterClearingLeaveTrail(AntRunHandler.java:26)
+   has returned: "null"
+
+############ Logging method invocation #25 on mock/spy ########
+recorder.select(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='Hill'},
+    [Trail{from='C995', to='Hill'}],
+    RETURN_IN_SEQUENCE
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.homewardMoving(AntRunHandler.java:219)
+   has returned: "null"
+
+############ Logging method invocation #26 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='Hill'}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:68)
+   has returned: "null"
+
+############ Logging method invocation #27 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C995', trails=3, initialFood=0, capacity=4}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:69)
+   has returned: "null"
+
+############ Logging method invocation #28 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='Hill', trails=2, initialFood=0, capacity=âˆž}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.recorderStuffEnterClearingLeaveTrail(AntRunHandler.java:25)
+   has returned: "null"
+
+############ Logging method invocation #29 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='Hill'}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.recorderStuffEnterClearingLeaveTrail(AntRunHandler.java:26)
+   has returned: "null"
+
+############ Logging method invocation #30 on mock/spy ########
+recorder.returnedFood(
+    Ant{name='Anthony', impatience=2, disguise=1000}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.homewardMoving(AntRunHandler.java:282)
+   has returned: "null"
+
+############ Logging method invocation #31 on mock/spy ########
+recorder.startFoodSearch(
+    Ant{name='Anthony', impatience=2, disguise=1000}
+);
+   invoked: -> at com.pseuco.np21.Ant.run(Ant.java:271)
+   has returned: "null"
+
+############ Logging method invocation #32 on mock/spy ########
+recorder.startExploration(
+    Ant{name='Anthony', impatience=2, disguise=1000}
+);
+   invoked: -> at com.pseuco.np21.Ant.forwardMoving(Ant.java:187)
+   has returned: "null"
+
+############ Logging method invocation #33 on mock/spy ########
+recorder.select(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='Hill', to='C995'},
+    [Trail{from='Hill', to='C995'}],
+    EXPLORATION
+);
+   invoked: -> at com.pseuco.np21.Ant.forwardMoving(Ant.java:188)
+   has returned: "null"
+
+############ Logging method invocation #34 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='Hill', to='C995'}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:68)
+   has returned: "null"
+
+############ Logging method invocation #35 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='Hill', trails=2, initialFood=0, capacity=âˆž}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:69)
+   has returned: "null"
+
+############ Logging method invocation #36 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C995', trails=3, initialFood=0, capacity=4}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.recorderStuffEnterClearingLeaveTrail(AntRunHandler.java:25)
+   has returned: "null"
+
+############ Logging method invocation #37 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='Hill', to='C995'}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.recorderStuffEnterClearingLeaveTrail(AntRunHandler.java:26)
+   has returned: "null"
+
+############ Logging method invocation #38 on mock/spy ########
+recorder.updateAnthill(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='Hill'},
+    1
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.handleEnterClearingFoodSearch(AntRunHandler.java:101)
+   has returned: "null"
+
+############ Logging method invocation #39 on mock/spy ########
+recorder.select(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='C990'},
+    [Trail{from='C995', to='C990'}],
+    FOOD_SEARCH
+);
+   invoked: -> at com.pseuco.np21.Ant.forwardMoving(Ant.java:183)
+   has returned: "null"
+
+############ Logging method invocation #40 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='C990'}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:68)
+   has returned: "null"
+
+############ Logging method invocation #41 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C995', trails=3, initialFood=0, capacity=4}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:69)
+   has returned: "null"
+
+############ Logging method invocation #42 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C990', trails=1, initialFood=1, capacity=3}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.recorderStuffEnterClearingLeaveTrail(AntRunHandler.java:25)
+   has returned: "null"
+
+############ Logging method invocation #43 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='C990'}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.recorderStuffEnterClearingLeaveTrail(AntRunHandler.java:26)
+   has returned: "null"
+
+############ Logging method invocation #44 on mock/spy ########
+recorder.updateAnthill(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C990', to='C995'},
+    2
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.handleEnterClearingFoodSearch(AntRunHandler.java:101)
+   has returned: "null"
+
+############ Logging method invocation #45 on mock/spy ########
+recorder.select(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C990', to='C995'},
+    [Trail{from='C995', to='C990'}],
+    NO_FOOD_RETURN
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.GoBackByNoFoodReturn(AntRunHandler.java:158)
+   has returned: "null"
+
+############ Logging method invocation #46 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C990', to='C995'}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:68)
+   has returned: "null"
+
+############ Logging method invocation #47 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C990', trails=1, initialFood=1, capacity=3}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:69)
+   has returned: "null"
+
+############ Logging method invocation #48 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C995', trails=3, initialFood=0, capacity=4}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.recorderStuffEnterClearingLeaveTrail(AntRunHandler.java:25)
+   has returned: "null"
+
+############ Logging method invocation #49 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C990', to='C995'}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.recorderStuffEnterClearingLeaveTrail(AntRunHandler.java:26)
+   has returned: "null"
+
+############ Logging method invocation #50 on mock/spy ########
+recorder.updateFood(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='C990'},
+    âˆž
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.GoBackByNoFoodReturn(AntRunHandler.java:167)
+   has returned: "null"
+
+############ Logging method invocation #51 on mock/spy ########
+recorder.select(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='Hill'},
+    [Trail{from='C995', to='C990'}],
+    NO_FOOD_RETURN
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.GoBackByNoFoodReturn(AntRunHandler.java:158)
+   has returned: "null"
+
+############ Logging method invocation #52 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='Hill'}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:68)
+   has returned: "null"
+
+############ Logging method invocation #53 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C995', trails=3, initialFood=0, capacity=4}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:69)
+   has returned: "null"
+
+############ Logging method invocation #54 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='Hill', trails=2, initialFood=0, capacity=âˆž}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.recorderStuffEnterClearingLeaveTrail(AntRunHandler.java:25)
+   has returned: "null"
+
+############ Logging method invocation #55 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='Hill'}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.recorderStuffEnterClearingLeaveTrail(AntRunHandler.java:26)
+   has returned: "null"
+
+############ Logging method invocation #56 on mock/spy ########
+recorder.updateFood(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='Hill', to='C995'},
+    âˆž
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.GoBackByNoFoodReturn(AntRunHandler.java:167)
+   has returned: "null"
+
+############ Logging method invocation #57 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='Hill', trails=2, initialFood=0, capacity=âˆž}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.leaveAndInterruptAtHill(AntRunHandler.java:189)
+   has returned: "null"
+
+############ Logging method invocation #58 on mock/spy ########
+recorder.despawn(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    TERMINATED
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.leaveAndInterruptAtHill(AntRunHandler.java:195)
+   has returned: "null"
+
+############ Logging method invocation #59 on mock/spy ########
+recorder.stop();
+   invoked: -> at com.pseuco.np21.Simulator.run(Simulator.java:75)
+   has returned: "null"
+
+############ Logging method invocation #60 on mock/spy ########
+recorder.start();
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:104)
+   has returned: "null"
+
+############ Logging method invocation #61 on mock/spy ########
+recorder.spawn(null);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:106)
+   has returned: "null"
+
+############ Logging method invocation #62 on mock/spy ########
+recorder.enter(null, null);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:107)
+   has returned: "null"
+
+############ Logging method invocation #63 on mock/spy ########
+recorder.startFoodSearch(null);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:109)
+   has returned: "null"
+
+############ Logging method invocation #64 on mock/spy ########
+recorder.startExploration(null);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:111)
+   has returned: "null"
+
+############ Logging method invocation #65 on mock/spy ########
+recorder.select(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='Hill', to='C995'},
+    [Trail{from='Hill', to='C995'}],
+    EXPLORATION
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.exploreSingleTrail(SingleAntEasyChoicesWithFood.java:174)
+   has returned: "null"
+
+############ Logging method invocation #66 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='Hill', to='C995'}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.exploreSingleTrail(SingleAntEasyChoicesWithFood.java:175)
+   has returned: "null"
+
+############ Logging method invocation #67 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='Hill', trails=2, initialFood=0, capacity=âˆž}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.exploreSingleTrail(SingleAntEasyChoicesWithFood.java:176)
+   has returned: "null"
+
+############ Logging method invocation #68 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C995', trails=3, initialFood=0, capacity=4}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.exploreSingleTrail(SingleAntEasyChoicesWithFood.java:177)
+   has returned: "null"
+
+############ Logging method invocation #69 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='Hill', to='C995'}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.exploreSingleTrail(SingleAntEasyChoicesWithFood.java:178)
+   has returned: "null"
+
+############ Logging method invocation #70 on mock/spy ########
+recorder.updateAnthill(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='Hill'},
+    1
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:115)
+   has returned: "null"
+
+############ Logging method invocation #71 on mock/spy ########
+recorder.select(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='C990'},
+    [Trail{from='C995', to='C990'}],
+    FOOD_SEARCH
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:118)
+   has returned: "null"
+
+############ Logging method invocation #72 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='C990'}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:119)
+   has returned: "null"
+
+############ Logging method invocation #73 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C995', trails=3, initialFood=0, capacity=4}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:120)
+   has returned: "null"
+
+############ Logging method invocation #74 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C990', trails=1, initialFood=1, capacity=3}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:121)
+   has returned: "null"
+
+############ Logging method invocation #75 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='C990'}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:122)
+   has returned: "null"
+
+############ Logging method invocation #76 on mock/spy ########
+recorder.updateAnthill(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C990', to='C995'},
+    2
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:123)
+   has returned: "null"
+
+############ Logging method invocation #77 on mock/spy ########
+recorder.pickupFood(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C990', trails=1, initialFood=1, capacity=3}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:125)
+   has returned: "null"
+
+############ Logging method invocation #78 on mock/spy ########
+recorder.startFoodReturn(
+    Ant{name='Anthony', impatience=2, disguise=1000}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:126)
+   has returned: "null"
+
+############ Logging method invocation #79 on mock/spy ########
+recorder.select(null, null, null, null);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:130)
+   has returned: "null"
+
+############ Logging method invocation #80 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C990', to='C995'}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:131)
+   has returned: "null"
+
+############ Logging method invocation #81 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C990', trails=1, initialFood=1, capacity=3}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:132)
+   has returned: "null"
+
+############ Logging method invocation #82 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C995', trails=3, initialFood=0, capacity=4}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:133)
+   has returned: "null"
+
+############ Logging method invocation #83 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C990', to='C995'}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:134)
+   has returned: "null"
+
+############ Logging method invocation #84 on mock/spy ########
+recorder.select(null, null, null, null);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:138)
+   has returned: "null"
+
+############ Logging method invocation #85 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='Hill'}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:139)
+   has returned: "null"
+
+############ Logging method invocation #86 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C995', trails=3, initialFood=0, capacity=4}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:140)
+   has returned: "null"
+
+############ Logging method invocation #87 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='Hill', trails=2, initialFood=0, capacity=âˆž}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:141)
+   has returned: "null"
+
+############ Logging method invocation #88 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='Hill'}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:142)
+   has returned: "null"
+
+############ Logging method invocation #89 on mock/spy ########
+recorder.returnedFood(
+    Ant{name='Anthony', impatience=2, disguise=1000}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:144)
+   has returned: "null"
+
+############ Logging method invocation #90 on mock/spy ########
+recorder.startFoodSearch(null);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:146)
+   has returned: "null"
+
+############ Logging method invocation #91 on mock/spy ########
+recorder.startExploration(null);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:148)
+   has returned: "null"
+
+############ Logging method invocation #92 on mock/spy ########
+recorder.select(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='Hill', to='C995'},
+    [Trail{from='Hill', to='C995'}],
+    EXPLORATION
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.exploreSingleTrail(SingleAntEasyChoicesWithFood.java:174)
+   has returned: "null"
+
+############ Logging method invocation #93 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='Hill', to='C995'}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.exploreSingleTrail(SingleAntEasyChoicesWithFood.java:175)
+   has returned: "null"
+
+############ Logging method invocation #94 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='Hill', trails=2, initialFood=0, capacity=âˆž}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.exploreSingleTrail(SingleAntEasyChoicesWithFood.java:176)
+   has returned: "null"
+
+############ Logging method invocation #95 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C995', trails=3, initialFood=0, capacity=4}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.exploreSingleTrail(SingleAntEasyChoicesWithFood.java:177)
+   has returned: "null"
+
+############ Logging method invocation #96 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='Hill', to='C995'}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.exploreSingleTrail(SingleAntEasyChoicesWithFood.java:178)
+   has returned: "null"
+
+############ Logging method invocation #97 on mock/spy ########
+recorder.updateAnthill(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='Hill'},
+    1
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:152)
+   has returned: "null"
+
+############ Logging method invocation #98 on mock/spy ########
+recorder.select(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='C990'},
+    [Trail{from='C995', to='C990'}],
+    FOOD_SEARCH
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:155)
+   has returned: "null"
+
+############ Logging method invocation #99 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='C990'}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:156)
+   has returned: "null"
+
+############ Logging method invocation #100 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C995', trails=3, initialFood=0, capacity=4}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:157)
+   has returned: "null"
+
+############ Logging method invocation #101 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C990', trails=1, initialFood=1, capacity=3}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:158)
+   has returned: "null"
+
+############ Logging method invocation #102 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='C990'}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:159)
+   has returned: "null"
+
+############ Logging method invocation #103 on mock/spy ########
+recorder.updateAnthill(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C990', to='C995'},
+    2
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:160)
+   has returned: "null"
+
+############ Logging method invocation #104 on mock/spy ########
+recorder.select(null, null, null, null);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.returnTrail(SingleAntEasyChoicesWithFood.java:182)
+   has returned: "null"
+
+############ Logging method invocation #105 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C990', to='C995'}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.returnTrail(SingleAntEasyChoicesWithFood.java:183)
+   has returned: "null"
+
+############ Logging method invocation #106 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C990', trails=1, initialFood=1, capacity=3}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.returnTrail(SingleAntEasyChoicesWithFood.java:184)
+   has returned: "null"
+
+############ Logging method invocation #107 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C995', trails=3, initialFood=0, capacity=4}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.returnTrail(SingleAntEasyChoicesWithFood.java:185)
+   has returned: "null"
+
+############ Logging method invocation #108 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C990', to='C995'}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.returnTrail(SingleAntEasyChoicesWithFood.java:186)
+   has returned: "null"
+
+############ Logging method invocation #109 on mock/spy ########
+recorder.updateFood(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='C990'},
+    âˆž
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.returnTrail(SingleAntEasyChoicesWithFood.java:187)
+   has returned: "null"
+
+############ Logging method invocation #110 on mock/spy ########
+recorder.select(null, null, null, null);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.returnTrail(SingleAntEasyChoicesWithFood.java:182)
+   has returned: "null"
+
+############ Logging method invocation #111 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='Hill'}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.returnTrail(SingleAntEasyChoicesWithFood.java:183)
+   has returned: "null"
+
+############ Logging method invocation #112 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C995', trails=3, initialFood=0, capacity=4}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.returnTrail(SingleAntEasyChoicesWithFood.java:184)
+   has returned: "null"
+
+############ Logging method invocation #113 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='Hill', trails=2, initialFood=0, capacity=âˆž}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.returnTrail(SingleAntEasyChoicesWithFood.java:185)
+   has returned: "null"
+
+############ Logging method invocation #114 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='Hill'}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.returnTrail(SingleAntEasyChoicesWithFood.java:186)
+   has returned: "null"
+
+############ Logging method invocation #115 on mock/spy ########
+recorder.updateFood(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='Hill', to='C995'},
+    âˆž
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.returnTrail(SingleAntEasyChoicesWithFood.java:187)
+   has returned: "null"
+
+############ Logging method invocation #116 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='Hill', trails=2, initialFood=0, capacity=âˆž}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:165)
+   has returned: "null"
+
+############ Logging method invocation #117 on mock/spy ########
+recorder.despawn(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    TERMINATED
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:166)
+   has returned: "null"
+
+############ Logging method invocation #118 on mock/spy ########
+recorder.stop();
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:168)
+   has returned: "null"
+
+############ Logging method invocation #1 on mock/spy ########
+recorder.start();
+   invoked: -> at com.pseuco.np21.Simulator.run(Simulator.java:49)
+   has returned: "null"
+
+############ Logging method invocation #2 on mock/spy ########
+recorder.spawn(
+    Ant{name='Anthony', impatience=2, disguise=1000}
+);
+   invoked: -> at com.pseuco.np21.Ant.run(Ant.java:264)
+   has returned: "null"
+
+############ Logging method invocation #3 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='Hill', trails=2, initialFood=0, capacity=âˆž}
+);
+   invoked: -> at com.pseuco.np21.Ant.run(Ant.java:266)
+   has returned: "null"
+
+############ Logging method invocation #4 on mock/spy ########
+recorder.startFoodSearch(
+    Ant{name='Anthony', impatience=2, disguise=1000}
+);
+   invoked: -> at com.pseuco.np21.Ant.run(Ant.java:271)
+   has returned: "null"
+
+############ Logging method invocation #5 on mock/spy ########
+recorder.startExploration(
+    Ant{name='Anthony', impatience=2, disguise=1000}
+);
+   invoked: -> at com.pseuco.np21.Ant.forwardMoving(Ant.java:187)
+   has returned: "null"
+
+############ Logging method invocation #6 on mock/spy ########
+recorder.select(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='Hill', to='C995'},
+    [Trail{from='Hill', to='C995'}],
+    EXPLORATION
+);
+   invoked: -> at com.pseuco.np21.Ant.forwardMoving(Ant.java:188)
+   has returned: "null"
+
+############ Logging method invocation #7 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='Hill', to='C995'}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:68)
+   has returned: "null"
+
+############ Logging method invocation #8 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='Hill', trails=2, initialFood=0, capacity=âˆž}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:69)
+   has returned: "null"
+
+############ Logging method invocation #9 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C995', trails=3, initialFood=0, capacity=4}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.recorderStuffEnterClearingLeaveTrail(AntRunHandler.java:25)
+   has returned: "null"
+
+############ Logging method invocation #10 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='Hill', to='C995'}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.recorderStuffEnterClearingLeaveTrail(AntRunHandler.java:26)
+   has returned: "null"
+
+############ Logging method invocation #11 on mock/spy ########
+recorder.updateAnthill(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='Hill'},
+    1
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.handleEnterClearingFoodSearch(AntRunHandler.java:101)
+   has returned: "null"
+
+############ Logging method invocation #12 on mock/spy ########
+recorder.select(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='C990'},
+    [Trail{from='C995', to='C990'}],
+    FOOD_SEARCH
+);
+   invoked: -> at com.pseuco.np21.Ant.forwardMoving(Ant.java:183)
+   has returned: "null"
+
+############ Logging method invocation #13 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='C990'}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:68)
+   has returned: "null"
+
+############ Logging method invocation #14 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C995', trails=3, initialFood=0, capacity=4}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:69)
+   has returned: "null"
+
+############ Logging method invocation #15 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C990', trails=1, initialFood=1, capacity=3}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.recorderStuffEnterClearingLeaveTrail(AntRunHandler.java:25)
+   has returned: "null"
+
+############ Logging method invocation #16 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='C990'}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.recorderStuffEnterClearingLeaveTrail(AntRunHandler.java:26)
+   has returned: "null"
+
+############ Logging method invocation #17 on mock/spy ########
+recorder.updateAnthill(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C990', to='C995'},
+    2
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.handleEnterClearingFoodSearch(AntRunHandler.java:101)
+   has returned: "null"
+
+############ Logging method invocation #18 on mock/spy ########
+recorder.pickupFood(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C990', trails=1, initialFood=1, capacity=3}
+);
+   invoked: -> at com.pseuco.np21.Ant.forwardMoving(Ant.java:204)
+   has returned: "null"
+
+############ Logging method invocation #19 on mock/spy ########
+recorder.startFoodReturn(
+    Ant{name='Anthony', impatience=2, disguise=1000}
+);
+   invoked: -> at com.pseuco.np21.Ant.forwardMoving(Ant.java:205)
+   has returned: "null"
+
+############ Logging method invocation #20 on mock/spy ########
+recorder.select(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C990', to='C995'},
+    [Trail{from='C990', to='C995'}],
+    RETURN_IN_SEQUENCE
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.homewardMoving(AntRunHandler.java:219)
+   has returned: "null"
+
+############ Logging method invocation #21 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C990', to='C995'}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:68)
+   has returned: "null"
+
+############ Logging method invocation #22 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C990', trails=1, initialFood=1, capacity=3}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:69)
+   has returned: "null"
+
+############ Logging method invocation #23 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C995', trails=3, initialFood=0, capacity=4}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.recorderStuffEnterClearingLeaveTrail(AntRunHandler.java:25)
+   has returned: "null"
+
+############ Logging method invocation #24 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C990', to='C995'}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.recorderStuffEnterClearingLeaveTrail(AntRunHandler.java:26)
+   has returned: "null"
+
+############ Logging method invocation #25 on mock/spy ########
+recorder.select(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='Hill'},
+    [Trail{from='C995', to='Hill'}],
+    RETURN_IN_SEQUENCE
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.homewardMoving(AntRunHandler.java:219)
+   has returned: "null"
+
+############ Logging method invocation #26 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='Hill'}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:68)
+   has returned: "null"
+
+############ Logging method invocation #27 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C995', trails=3, initialFood=0, capacity=4}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:69)
+   has returned: "null"
+
+############ Logging method invocation #28 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='Hill', trails=2, initialFood=0, capacity=âˆž}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.recorderStuffEnterClearingLeaveTrail(AntRunHandler.java:25)
+   has returned: "null"
+
+############ Logging method invocation #29 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='Hill'}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.recorderStuffEnterClearingLeaveTrail(AntRunHandler.java:26)
+   has returned: "null"
+
+############ Logging method invocation #30 on mock/spy ########
+recorder.returnedFood(
+    Ant{name='Anthony', impatience=2, disguise=1000}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.homewardMoving(AntRunHandler.java:282)
+   has returned: "null"
+
+############ Logging method invocation #31 on mock/spy ########
+recorder.startFoodSearch(
+    Ant{name='Anthony', impatience=2, disguise=1000}
+);
+   invoked: -> at com.pseuco.np21.Ant.run(Ant.java:271)
+   has returned: "null"
+
+############ Logging method invocation #32 on mock/spy ########
+recorder.startExploration(
+    Ant{name='Anthony', impatience=2, disguise=1000}
+);
+   invoked: -> at com.pseuco.np21.Ant.forwardMoving(Ant.java:187)
+   has returned: "null"
+
+############ Logging method invocation #33 on mock/spy ########
+recorder.select(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='Hill', to='C995'},
+    [Trail{from='Hill', to='C995'}],
+    EXPLORATION
+);
+   invoked: -> at com.pseuco.np21.Ant.forwardMoving(Ant.java:188)
+   has returned: "null"
+
+############ Logging method invocation #34 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='Hill', to='C995'}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:68)
+   has returned: "null"
+
+############ Logging method invocation #35 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='Hill', trails=2, initialFood=0, capacity=âˆž}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:69)
+   has returned: "null"
+
+############ Logging method invocation #36 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C995', trails=3, initialFood=0, capacity=4}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.recorderStuffEnterClearingLeaveTrail(AntRunHandler.java:25)
+   has returned: "null"
+
+############ Logging method invocation #37 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='Hill', to='C995'}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.recorderStuffEnterClearingLeaveTrail(AntRunHandler.java:26)
+   has returned: "null"
+
+############ Logging method invocation #38 on mock/spy ########
+recorder.updateAnthill(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='Hill'},
+    1
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.handleEnterClearingFoodSearch(AntRunHandler.java:101)
+   has returned: "null"
+
+############ Logging method invocation #39 on mock/spy ########
+recorder.select(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='C990'},
+    [Trail{from='C995', to='C990'}],
+    FOOD_SEARCH
+);
+   invoked: -> at com.pseuco.np21.Ant.forwardMoving(Ant.java:183)
+   has returned: "null"
+
+############ Logging method invocation #40 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='C990'}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:68)
+   has returned: "null"
+
+############ Logging method invocation #41 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C995', trails=3, initialFood=0, capacity=4}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:69)
+   has returned: "null"
+
+############ Logging method invocation #42 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C990', trails=1, initialFood=1, capacity=3}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.recorderStuffEnterClearingLeaveTrail(AntRunHandler.java:25)
+   has returned: "null"
+
+############ Logging method invocation #43 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='C990'}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.recorderStuffEnterClearingLeaveTrail(AntRunHandler.java:26)
+   has returned: "null"
+
+############ Logging method invocation #44 on mock/spy ########
+recorder.updateAnthill(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C990', to='C995'},
+    2
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.handleEnterClearingFoodSearch(AntRunHandler.java:101)
+   has returned: "null"
+
+############ Logging method invocation #45 on mock/spy ########
+recorder.select(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C990', to='C995'},
+    [Trail{from='C995', to='C990'}],
+    NO_FOOD_RETURN
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.GoBackByNoFoodReturn(AntRunHandler.java:158)
+   has returned: "null"
+
+############ Logging method invocation #46 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C990', to='C995'}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:68)
+   has returned: "null"
+
+############ Logging method invocation #47 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C990', trails=1, initialFood=1, capacity=3}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:69)
+   has returned: "null"
+
+############ Logging method invocation #48 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C995', trails=3, initialFood=0, capacity=4}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.recorderStuffEnterClearingLeaveTrail(AntRunHandler.java:25)
+   has returned: "null"
+
+############ Logging method invocation #49 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C990', to='C995'}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.recorderStuffEnterClearingLeaveTrail(AntRunHandler.java:26)
+   has returned: "null"
+
+############ Logging method invocation #50 on mock/spy ########
+recorder.updateFood(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='C990'},
+    âˆž
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.GoBackByNoFoodReturn(AntRunHandler.java:167)
+   has returned: "null"
+
+############ Logging method invocation #51 on mock/spy ########
+recorder.select(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='Hill'},
+    [Trail{from='C995', to='C990'}],
+    NO_FOOD_RETURN
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.GoBackByNoFoodReturn(AntRunHandler.java:158)
+   has returned: "null"
+
+############ Logging method invocation #52 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='Hill'}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:68)
+   has returned: "null"
+
+############ Logging method invocation #53 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C995', trails=3, initialFood=0, capacity=4}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:69)
+   has returned: "null"
+
+############ Logging method invocation #54 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='Hill', trails=2, initialFood=0, capacity=âˆž}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.recorderStuffEnterClearingLeaveTrail(AntRunHandler.java:25)
+   has returned: "null"
+
+############ Logging method invocation #55 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='Hill'}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.recorderStuffEnterClearingLeaveTrail(AntRunHandler.java:26)
+   has returned: "null"
+
+############ Logging method invocation #56 on mock/spy ########
+recorder.updateFood(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='Hill', to='C995'},
+    âˆž
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.GoBackByNoFoodReturn(AntRunHandler.java:167)
+   has returned: "null"
+
+############ Logging method invocation #57 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='Hill', trails=2, initialFood=0, capacity=âˆž}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.leaveAndInterruptAtHill(AntRunHandler.java:189)
+   has returned: "null"
+
+############ Logging method invocation #58 on mock/spy ########
+recorder.despawn(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    TERMINATED
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.leaveAndInterruptAtHill(AntRunHandler.java:195)
+   has returned: "null"
+
+############ Logging method invocation #59 on mock/spy ########
+recorder.stop();
+   invoked: -> at com.pseuco.np21.Simulator.run(Simulator.java:75)
+   has returned: "null"
+
+############ Logging method invocation #60 on mock/spy ########
+recorder.start();
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:104)
+   has returned: "null"
+
+############ Logging method invocation #61 on mock/spy ########
+recorder.spawn(null);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:106)
+   has returned: "null"
+
+############ Logging method invocation #62 on mock/spy ########
+recorder.enter(null, null);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:107)
+   has returned: "null"
+
+############ Logging method invocation #63 on mock/spy ########
+recorder.startFoodSearch(null);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:109)
+   has returned: "null"
+
+############ Logging method invocation #64 on mock/spy ########
+recorder.startExploration(null);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:111)
+   has returned: "null"
+
+############ Logging method invocation #65 on mock/spy ########
+recorder.select(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='Hill', to='C995'},
+    [Trail{from='Hill', to='C995'}],
+    EXPLORATION
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.exploreSingleTrail(SingleAntEasyChoicesWithFood.java:174)
+   has returned: "null"
+
+############ Logging method invocation #66 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='Hill', to='C995'}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.exploreSingleTrail(SingleAntEasyChoicesWithFood.java:175)
+   has returned: "null"
+
+############ Logging method invocation #67 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='Hill', trails=2, initialFood=0, capacity=âˆž}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.exploreSingleTrail(SingleAntEasyChoicesWithFood.java:176)
+   has returned: "null"
+
+############ Logging method invocation #68 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C995', trails=3, initialFood=0, capacity=4}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.exploreSingleTrail(SingleAntEasyChoicesWithFood.java:177)
+   has returned: "null"
+
+############ Logging method invocation #69 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='Hill', to='C995'}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.exploreSingleTrail(SingleAntEasyChoicesWithFood.java:178)
+   has returned: "null"
+
+############ Logging method invocation #70 on mock/spy ########
+recorder.updateAnthill(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='Hill'},
+    1
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:115)
+   has returned: "null"
+
+############ Logging method invocation #71 on mock/spy ########
+recorder.select(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='C990'},
+    [Trail{from='C995', to='C990'}],
+    FOOD_SEARCH
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:118)
+   has returned: "null"
+
+############ Logging method invocation #72 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='C990'}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:119)
+   has returned: "null"
+
+############ Logging method invocation #73 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C995', trails=3, initialFood=0, capacity=4}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:120)
+   has returned: "null"
+
+############ Logging method invocation #74 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C990', trails=1, initialFood=1, capacity=3}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:121)
+   has returned: "null"
+
+############ Logging method invocation #75 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='C990'}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:122)
+   has returned: "null"
+
+############ Logging method invocation #76 on mock/spy ########
+recorder.updateAnthill(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C990', to='C995'},
+    2
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:123)
+   has returned: "null"
+
+############ Logging method invocation #77 on mock/spy ########
+recorder.pickupFood(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C990', trails=1, initialFood=1, capacity=3}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:125)
+   has returned: "null"
+
+############ Logging method invocation #78 on mock/spy ########
+recorder.startFoodReturn(
+    Ant{name='Anthony', impatience=2, disguise=1000}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:126)
+   has returned: "null"
+
+############ Logging method invocation #79 on mock/spy ########
+recorder.select(null, null, null, null);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:130)
+   has returned: "null"
+
+############ Logging method invocation #80 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C990', to='C995'}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:131)
+   has returned: "null"
+
+############ Logging method invocation #81 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C990', trails=1, initialFood=1, capacity=3}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:132)
+   has returned: "null"
+
+############ Logging method invocation #82 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C995', trails=3, initialFood=0, capacity=4}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:133)
+   has returned: "null"
+
+############ Logging method invocation #83 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C990', to='C995'}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:134)
+   has returned: "null"
+
+############ Logging method invocation #84 on mock/spy ########
+recorder.select(null, null, null, null);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:138)
+   has returned: "null"
+
+############ Logging method invocation #85 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='Hill'}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:139)
+   has returned: "null"
+
+############ Logging method invocation #86 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C995', trails=3, initialFood=0, capacity=4}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:140)
+   has returned: "null"
+
+############ Logging method invocation #87 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='Hill', trails=2, initialFood=0, capacity=âˆž}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:141)
+   has returned: "null"
+
+############ Logging method invocation #88 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='Hill'}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:142)
+   has returned: "null"
+
+############ Logging method invocation #89 on mock/spy ########
+recorder.returnedFood(
+    Ant{name='Anthony', impatience=2, disguise=1000}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:144)
+   has returned: "null"
+
+############ Logging method invocation #90 on mock/spy ########
+recorder.startFoodSearch(null);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:146)
+   has returned: "null"
+
+############ Logging method invocation #91 on mock/spy ########
+recorder.startExploration(null);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:148)
+   has returned: "null"
+
+############ Logging method invocation #92 on mock/spy ########
+recorder.select(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='Hill', to='C995'},
+    [Trail{from='Hill', to='C995'}],
+    EXPLORATION
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.exploreSingleTrail(SingleAntEasyChoicesWithFood.java:174)
+   has returned: "null"
+
+############ Logging method invocation #93 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='Hill', to='C995'}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.exploreSingleTrail(SingleAntEasyChoicesWithFood.java:175)
+   has returned: "null"
+
+############ Logging method invocation #94 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='Hill', trails=2, initialFood=0, capacity=âˆž}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.exploreSingleTrail(SingleAntEasyChoicesWithFood.java:176)
+   has returned: "null"
+
+############ Logging method invocation #95 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C995', trails=3, initialFood=0, capacity=4}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.exploreSingleTrail(SingleAntEasyChoicesWithFood.java:177)
+   has returned: "null"
+
+############ Logging method invocation #96 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='Hill', to='C995'}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.exploreSingleTrail(SingleAntEasyChoicesWithFood.java:178)
+   has returned: "null"
+
+############ Logging method invocation #97 on mock/spy ########
+recorder.updateAnthill(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='Hill'},
+    1
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:152)
+   has returned: "null"
+
+############ Logging method invocation #98 on mock/spy ########
+recorder.select(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='C990'},
+    [Trail{from='C995', to='C990'}],
+    FOOD_SEARCH
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:155)
+   has returned: "null"
+
+############ Logging method invocation #99 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='C990'}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:156)
+   has returned: "null"
+
+############ Logging method invocation #100 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C995', trails=3, initialFood=0, capacity=4}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:157)
+   has returned: "null"
+
+############ Logging method invocation #101 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C990', trails=1, initialFood=1, capacity=3}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:158)
+   has returned: "null"
+
+############ Logging method invocation #102 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='C990'}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:159)
+   has returned: "null"
+
+############ Logging method invocation #103 on mock/spy ########
+recorder.updateAnthill(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C990', to='C995'},
+    2
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:160)
+   has returned: "null"
+
+############ Logging method invocation #104 on mock/spy ########
+recorder.select(null, null, null, null);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.returnTrail(SingleAntEasyChoicesWithFood.java:182)
+   has returned: "null"
+
+############ Logging method invocation #105 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C990', to='C995'}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.returnTrail(SingleAntEasyChoicesWithFood.java:183)
+   has returned: "null"
+
+############ Logging method invocation #106 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C990', trails=1, initialFood=1, capacity=3}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.returnTrail(SingleAntEasyChoicesWithFood.java:184)
+   has returned: "null"
+
+############ Logging method invocation #107 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C995', trails=3, initialFood=0, capacity=4}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.returnTrail(SingleAntEasyChoicesWithFood.java:185)
+   has returned: "null"
+
+############ Logging method invocation #108 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C990', to='C995'}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.returnTrail(SingleAntEasyChoicesWithFood.java:186)
+   has returned: "null"
+
+############ Logging method invocation #109 on mock/spy ########
+recorder.updateFood(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='C990'},
+    âˆž
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.returnTrail(SingleAntEasyChoicesWithFood.java:187)
+   has returned: "null"
+
+############ Logging method invocation #110 on mock/spy ########
+recorder.select(null, null, null, null);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.returnTrail(SingleAntEasyChoicesWithFood.java:182)
+   has returned: "null"
+
+############ Logging method invocation #111 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='Hill'}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.returnTrail(SingleAntEasyChoicesWithFood.java:183)
+   has returned: "null"
+
+############ Logging method invocation #112 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C995', trails=3, initialFood=0, capacity=4}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.returnTrail(SingleAntEasyChoicesWithFood.java:184)
+   has returned: "null"
+
+############ Logging method invocation #113 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='Hill', trails=2, initialFood=0, capacity=âˆž}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.returnTrail(SingleAntEasyChoicesWithFood.java:185)
+   has returned: "null"
+
+############ Logging method invocation #114 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='Hill'}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.returnTrail(SingleAntEasyChoicesWithFood.java:186)
+   has returned: "null"
+
+############ Logging method invocation #115 on mock/spy ########
+recorder.updateFood(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='Hill', to='C995'},
+    âˆž
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.returnTrail(SingleAntEasyChoicesWithFood.java:187)
+   has returned: "null"
+
+############ Logging method invocation #116 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='Hill', trails=2, initialFood=0, capacity=âˆž}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:165)
+   has returned: "null"
+
+############ Logging method invocation #117 on mock/spy ########
+recorder.despawn(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    TERMINATED
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:166)
+   has returned: "null"
+
+############ Logging method invocation #118 on mock/spy ########
+recorder.stop();
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:168)
+   has returned: "null"
+
+############ Logging method invocation #1 on mock/spy ########
+recorder.start();
+   invoked: -> at com.pseuco.np21.Simulator.run(Simulator.java:49)
+   has returned: "null"
+
+############ Logging method invocation #2 on mock/spy ########
+recorder.spawn(
+    Ant{name='Anthony', impatience=2, disguise=1000}
+);
+   invoked: -> at com.pseuco.np21.Ant.run(Ant.java:264)
+   has returned: "null"
+
+############ Logging method invocation #3 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='Hill', trails=2, initialFood=0, capacity=âˆž}
+);
+   invoked: -> at com.pseuco.np21.Ant.run(Ant.java:266)
+   has returned: "null"
+
+############ Logging method invocation #4 on mock/spy ########
+recorder.startFoodSearch(
+    Ant{name='Anthony', impatience=2, disguise=1000}
+);
+   invoked: -> at com.pseuco.np21.Ant.run(Ant.java:271)
+   has returned: "null"
+
+############ Logging method invocation #5 on mock/spy ########
+recorder.startExploration(
+    Ant{name='Anthony', impatience=2, disguise=1000}
+);
+   invoked: -> at com.pseuco.np21.Ant.forwardMoving(Ant.java:187)
+   has returned: "null"
+
+############ Logging method invocation #6 on mock/spy ########
+recorder.select(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='Hill', to='C995'},
+    [Trail{from='Hill', to='C995'}],
+    EXPLORATION
+);
+   invoked: -> at com.pseuco.np21.Ant.forwardMoving(Ant.java:188)
+   has returned: "null"
+
+############ Logging method invocation #7 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='Hill', to='C995'}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:68)
+   has returned: "null"
+
+############ Logging method invocation #8 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='Hill', trails=2, initialFood=0, capacity=âˆž}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:69)
+   has returned: "null"
+
+############ Logging method invocation #9 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C995', trails=3, initialFood=0, capacity=4}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.recorderStuffEnterClearingLeaveTrail(AntRunHandler.java:25)
+   has returned: "null"
+
+############ Logging method invocation #10 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='Hill', to='C995'}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.recorderStuffEnterClearingLeaveTrail(AntRunHandler.java:26)
+   has returned: "null"
+
+############ Logging method invocation #11 on mock/spy ########
+recorder.updateAnthill(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='Hill'},
+    1
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.handleEnterClearingFoodSearch(AntRunHandler.java:101)
+   has returned: "null"
+
+############ Logging method invocation #12 on mock/spy ########
+recorder.select(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='C990'},
+    [Trail{from='C995', to='C990'}],
+    FOOD_SEARCH
+);
+   invoked: -> at com.pseuco.np21.Ant.forwardMoving(Ant.java:183)
+   has returned: "null"
+
+############ Logging method invocation #13 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='C990'}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:68)
+   has returned: "null"
+
+############ Logging method invocation #14 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C995', trails=3, initialFood=0, capacity=4}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:69)
+   has returned: "null"
+
+############ Logging method invocation #15 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C990', trails=1, initialFood=1, capacity=3}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.recorderStuffEnterClearingLeaveTrail(AntRunHandler.java:25)
+   has returned: "null"
+
+############ Logging method invocation #16 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='C990'}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.recorderStuffEnterClearingLeaveTrail(AntRunHandler.java:26)
+   has returned: "null"
+
+############ Logging method invocation #17 on mock/spy ########
+recorder.updateAnthill(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C990', to='C995'},
+    2
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.handleEnterClearingFoodSearch(AntRunHandler.java:101)
+   has returned: "null"
+
+############ Logging method invocation #18 on mock/spy ########
+recorder.pickupFood(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C990', trails=1, initialFood=1, capacity=3}
+);
+   invoked: -> at com.pseuco.np21.Ant.forwardMoving(Ant.java:204)
+   has returned: "null"
+
+############ Logging method invocation #19 on mock/spy ########
+recorder.startFoodReturn(
+    Ant{name='Anthony', impatience=2, disguise=1000}
+);
+   invoked: -> at com.pseuco.np21.Ant.forwardMoving(Ant.java:205)
+   has returned: "null"
+
+############ Logging method invocation #20 on mock/spy ########
+recorder.select(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C990', to='C995'},
+    [Trail{from='C990', to='C995'}],
+    RETURN_IN_SEQUENCE
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.homewardMoving(AntRunHandler.java:219)
+   has returned: "null"
+
+############ Logging method invocation #21 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C990', to='C995'}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:68)
+   has returned: "null"
+
+############ Logging method invocation #22 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C990', trails=1, initialFood=1, capacity=3}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:69)
+   has returned: "null"
+
+############ Logging method invocation #23 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C995', trails=3, initialFood=0, capacity=4}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.recorderStuffEnterClearingLeaveTrail(AntRunHandler.java:25)
+   has returned: "null"
+
+############ Logging method invocation #24 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C990', to='C995'}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.recorderStuffEnterClearingLeaveTrail(AntRunHandler.java:26)
+   has returned: "null"
+
+############ Logging method invocation #25 on mock/spy ########
+recorder.select(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='Hill'},
+    [Trail{from='C995', to='Hill'}],
+    RETURN_IN_SEQUENCE
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.homewardMoving(AntRunHandler.java:219)
+   has returned: "null"
+
+############ Logging method invocation #26 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='Hill'}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:68)
+   has returned: "null"
+
+############ Logging method invocation #27 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C995', trails=3, initialFood=0, capacity=4}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:69)
+   has returned: "null"
+
+############ Logging method invocation #28 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='Hill', trails=2, initialFood=0, capacity=âˆž}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.recorderStuffEnterClearingLeaveTrail(AntRunHandler.java:25)
+   has returned: "null"
+
+############ Logging method invocation #29 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='Hill'}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.recorderStuffEnterClearingLeaveTrail(AntRunHandler.java:26)
+   has returned: "null"
+
+############ Logging method invocation #30 on mock/spy ########
+recorder.returnedFood(
+    Ant{name='Anthony', impatience=2, disguise=1000}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.homewardMoving(AntRunHandler.java:282)
+   has returned: "null"
+
+############ Logging method invocation #31 on mock/spy ########
+recorder.startFoodSearch(
+    Ant{name='Anthony', impatience=2, disguise=1000}
+);
+   invoked: -> at com.pseuco.np21.Ant.run(Ant.java:271)
+   has returned: "null"
+
+############ Logging method invocation #32 on mock/spy ########
+recorder.startExploration(
+    Ant{name='Anthony', impatience=2, disguise=1000}
+);
+   invoked: -> at com.pseuco.np21.Ant.forwardMoving(Ant.java:187)
+   has returned: "null"
+
+############ Logging method invocation #33 on mock/spy ########
+recorder.select(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='Hill', to='C995'},
+    [Trail{from='Hill', to='C995'}],
+    EXPLORATION
+);
+   invoked: -> at com.pseuco.np21.Ant.forwardMoving(Ant.java:188)
+   has returned: "null"
+
+############ Logging method invocation #34 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='Hill', to='C995'}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:68)
+   has returned: "null"
+
+############ Logging method invocation #35 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='Hill', trails=2, initialFood=0, capacity=âˆž}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:69)
+   has returned: "null"
+
+############ Logging method invocation #36 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C995', trails=3, initialFood=0, capacity=4}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.recorderStuffEnterClearingLeaveTrail(AntRunHandler.java:25)
+   has returned: "null"
+
+############ Logging method invocation #37 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='Hill', to='C995'}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.recorderStuffEnterClearingLeaveTrail(AntRunHandler.java:26)
+   has returned: "null"
+
+############ Logging method invocation #38 on mock/spy ########
+recorder.updateAnthill(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='Hill'},
+    1
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.handleEnterClearingFoodSearch(AntRunHandler.java:101)
+   has returned: "null"
+
+############ Logging method invocation #39 on mock/spy ########
+recorder.select(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='C990'},
+    [Trail{from='C995', to='C990'}],
+    FOOD_SEARCH
+);
+   invoked: -> at com.pseuco.np21.Ant.forwardMoving(Ant.java:183)
+   has returned: "null"
+
+############ Logging method invocation #40 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='C990'}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:68)
+   has returned: "null"
+
+############ Logging method invocation #41 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C995', trails=3, initialFood=0, capacity=4}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:69)
+   has returned: "null"
+
+############ Logging method invocation #42 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C990', trails=1, initialFood=1, capacity=3}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.recorderStuffEnterClearingLeaveTrail(AntRunHandler.java:25)
+   has returned: "null"
+
+############ Logging method invocation #43 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='C990'}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.recorderStuffEnterClearingLeaveTrail(AntRunHandler.java:26)
+   has returned: "null"
+
+############ Logging method invocation #44 on mock/spy ########
+recorder.updateAnthill(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C990', to='C995'},
+    2
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.handleEnterClearingFoodSearch(AntRunHandler.java:101)
+   has returned: "null"
+
+############ Logging method invocation #45 on mock/spy ########
+recorder.select(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C990', to='C995'},
+    [Trail{from='C995', to='C990'}],
+    NO_FOOD_RETURN
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.GoBackByNoFoodReturn(AntRunHandler.java:158)
+   has returned: "null"
+
+############ Logging method invocation #46 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C990', to='C995'}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:68)
+   has returned: "null"
+
+############ Logging method invocation #47 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C990', trails=1, initialFood=1, capacity=3}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:69)
+   has returned: "null"
+
+############ Logging method invocation #48 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C995', trails=3, initialFood=0, capacity=4}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.recorderStuffEnterClearingLeaveTrail(AntRunHandler.java:25)
+   has returned: "null"
+
+############ Logging method invocation #49 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C990', to='C995'}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.recorderStuffEnterClearingLeaveTrail(AntRunHandler.java:26)
+   has returned: "null"
+
+############ Logging method invocation #50 on mock/spy ########
+recorder.updateFood(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='C990'},
+    âˆž
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.GoBackByNoFoodReturn(AntRunHandler.java:167)
+   has returned: "null"
+
+############ Logging method invocation #51 on mock/spy ########
+recorder.select(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='Hill'},
+    [Trail{from='C995', to='C990'}],
+    NO_FOOD_RETURN
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.GoBackByNoFoodReturn(AntRunHandler.java:158)
+   has returned: "null"
+
+############ Logging method invocation #52 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='Hill'}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:68)
+   has returned: "null"
+
+############ Logging method invocation #53 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C995', trails=3, initialFood=0, capacity=4}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:69)
+   has returned: "null"
+
+############ Logging method invocation #54 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='Hill', trails=2, initialFood=0, capacity=âˆž}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.recorderStuffEnterClearingLeaveTrail(AntRunHandler.java:25)
+   has returned: "null"
+
+############ Logging method invocation #55 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='Hill'}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.recorderStuffEnterClearingLeaveTrail(AntRunHandler.java:26)
+   has returned: "null"
+
+############ Logging method invocation #56 on mock/spy ########
+recorder.updateFood(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='Hill', to='C995'},
+    âˆž
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.GoBackByNoFoodReturn(AntRunHandler.java:167)
+   has returned: "null"
+
+############ Logging method invocation #57 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='Hill', trails=2, initialFood=0, capacity=âˆž}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.leaveAndInterruptAtHill(AntRunHandler.java:189)
+   has returned: "null"
+
+############ Logging method invocation #58 on mock/spy ########
+recorder.despawn(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    TERMINATED
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.leaveAndInterruptAtHill(AntRunHandler.java:195)
+   has returned: "null"
+
+############ Logging method invocation #59 on mock/spy ########
+recorder.stop();
+   invoked: -> at com.pseuco.np21.Simulator.run(Simulator.java:75)
+   has returned: "null"
+
+############ Logging method invocation #60 on mock/spy ########
+recorder.start();
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:104)
+   has returned: "null"
+
+############ Logging method invocation #61 on mock/spy ########
+recorder.spawn(null);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:106)
+   has returned: "null"
+
+############ Logging method invocation #62 on mock/spy ########
+recorder.enter(null, null);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:107)
+   has returned: "null"
+
+############ Logging method invocation #63 on mock/spy ########
+recorder.startFoodSearch(null);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:109)
+   has returned: "null"
+
+############ Logging method invocation #64 on mock/spy ########
+recorder.startExploration(null);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:111)
+   has returned: "null"
+
+############ Logging method invocation #65 on mock/spy ########
+recorder.select(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='Hill', to='C995'},
+    [Trail{from='Hill', to='C995'}],
+    EXPLORATION
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.exploreSingleTrail(SingleAntEasyChoicesWithFood.java:174)
+   has returned: "null"
+
+############ Logging method invocation #66 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='Hill', to='C995'}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.exploreSingleTrail(SingleAntEasyChoicesWithFood.java:175)
+   has returned: "null"
+
+############ Logging method invocation #67 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='Hill', trails=2, initialFood=0, capacity=âˆž}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.exploreSingleTrail(SingleAntEasyChoicesWithFood.java:176)
+   has returned: "null"
+
+############ Logging method invocation #68 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C995', trails=3, initialFood=0, capacity=4}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.exploreSingleTrail(SingleAntEasyChoicesWithFood.java:177)
+   has returned: "null"
+
+############ Logging method invocation #69 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='Hill', to='C995'}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.exploreSingleTrail(SingleAntEasyChoicesWithFood.java:178)
+   has returned: "null"
+
+############ Logging method invocation #70 on mock/spy ########
+recorder.updateAnthill(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='Hill'},
+    1
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:115)
+   has returned: "null"
+
+############ Logging method invocation #71 on mock/spy ########
+recorder.select(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='C990'},
+    [Trail{from='C995', to='C990'}],
+    FOOD_SEARCH
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:118)
+   has returned: "null"
+
+############ Logging method invocation #72 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='C990'}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:119)
+   has returned: "null"
+
+############ Logging method invocation #73 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C995', trails=3, initialFood=0, capacity=4}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:120)
+   has returned: "null"
+
+############ Logging method invocation #74 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C990', trails=1, initialFood=1, capacity=3}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:121)
+   has returned: "null"
+
+############ Logging method invocation #75 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='C990'}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:122)
+   has returned: "null"
+
+############ Logging method invocation #76 on mock/spy ########
+recorder.updateAnthill(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C990', to='C995'},
+    2
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:123)
+   has returned: "null"
+
+############ Logging method invocation #77 on mock/spy ########
+recorder.pickupFood(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C990', trails=1, initialFood=1, capacity=3}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:125)
+   has returned: "null"
+
+############ Logging method invocation #78 on mock/spy ########
+recorder.startFoodReturn(
+    Ant{name='Anthony', impatience=2, disguise=1000}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:126)
+   has returned: "null"
+
+############ Logging method invocation #79 on mock/spy ########
+recorder.select(null, null, null, null);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:130)
+   has returned: "null"
+
+############ Logging method invocation #80 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C990', to='C995'}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:131)
+   has returned: "null"
+
+############ Logging method invocation #81 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C990', trails=1, initialFood=1, capacity=3}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:132)
+   has returned: "null"
+
+############ Logging method invocation #82 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C995', trails=3, initialFood=0, capacity=4}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:133)
+   has returned: "null"
+
+############ Logging method invocation #83 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C990', to='C995'}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:134)
+   has returned: "null"
+
+############ Logging method invocation #84 on mock/spy ########
+recorder.select(null, null, null, null);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:138)
+   has returned: "null"
+
+############ Logging method invocation #85 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='Hill'}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:139)
+   has returned: "null"
+
+############ Logging method invocation #86 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C995', trails=3, initialFood=0, capacity=4}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:140)
+   has returned: "null"
+
+############ Logging method invocation #87 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='Hill', trails=2, initialFood=0, capacity=âˆž}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:141)
+   has returned: "null"
+
+############ Logging method invocation #88 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='Hill'}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:142)
+   has returned: "null"
+
+############ Logging method invocation #89 on mock/spy ########
+recorder.returnedFood(
+    Ant{name='Anthony', impatience=2, disguise=1000}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:144)
+   has returned: "null"
+
+############ Logging method invocation #90 on mock/spy ########
+recorder.startFoodSearch(null);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:146)
+   has returned: "null"
+
+############ Logging method invocation #91 on mock/spy ########
+recorder.startExploration(null);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:148)
+   has returned: "null"
+
+############ Logging method invocation #92 on mock/spy ########
+recorder.select(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='Hill', to='C995'},
+    [Trail{from='Hill', to='C995'}],
+    EXPLORATION
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.exploreSingleTrail(SingleAntEasyChoicesWithFood.java:174)
+   has returned: "null"
+
+############ Logging method invocation #93 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='Hill', to='C995'}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.exploreSingleTrail(SingleAntEasyChoicesWithFood.java:175)
+   has returned: "null"
+
+############ Logging method invocation #94 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='Hill', trails=2, initialFood=0, capacity=âˆž}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.exploreSingleTrail(SingleAntEasyChoicesWithFood.java:176)
+   has returned: "null"
+
+############ Logging method invocation #95 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C995', trails=3, initialFood=0, capacity=4}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.exploreSingleTrail(SingleAntEasyChoicesWithFood.java:177)
+   has returned: "null"
+
+############ Logging method invocation #96 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='Hill', to='C995'}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.exploreSingleTrail(SingleAntEasyChoicesWithFood.java:178)
+   has returned: "null"
+
+############ Logging method invocation #97 on mock/spy ########
+recorder.updateAnthill(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='Hill'},
+    1
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:152)
+   has returned: "null"
+
+############ Logging method invocation #98 on mock/spy ########
+recorder.select(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='C990'},
+    [Trail{from='C995', to='C990'}],
+    FOOD_SEARCH
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:155)
+   has returned: "null"
+
+############ Logging method invocation #99 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='C990'}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:156)
+   has returned: "null"
+
+############ Logging method invocation #100 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C995', trails=3, initialFood=0, capacity=4}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:157)
+   has returned: "null"
+
+############ Logging method invocation #101 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C990', trails=1, initialFood=1, capacity=3}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:158)
+   has returned: "null"
+
+############ Logging method invocation #102 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='C990'}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:159)
+   has returned: "null"
+
+############ Logging method invocation #103 on mock/spy ########
+recorder.updateAnthill(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C990', to='C995'},
+    2
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:160)
+   has returned: "null"
+
+############ Logging method invocation #104 on mock/spy ########
+recorder.select(null, null, null, null);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.returnTrail(SingleAntEasyChoicesWithFood.java:182)
+   has returned: "null"
+
+############ Logging method invocation #105 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C990', to='C995'}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.returnTrail(SingleAntEasyChoicesWithFood.java:183)
+   has returned: "null"
+
+############ Logging method invocation #106 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C990', trails=1, initialFood=1, capacity=3}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.returnTrail(SingleAntEasyChoicesWithFood.java:184)
+   has returned: "null"
+
+############ Logging method invocation #107 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C995', trails=3, initialFood=0, capacity=4}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.returnTrail(SingleAntEasyChoicesWithFood.java:185)
+   has returned: "null"
+
+############ Logging method invocation #108 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C990', to='C995'}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.returnTrail(SingleAntEasyChoicesWithFood.java:186)
+   has returned: "null"
+
+############ Logging method invocation #109 on mock/spy ########
+recorder.updateFood(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='C990'},
+    âˆž
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.returnTrail(SingleAntEasyChoicesWithFood.java:187)
+   has returned: "null"
+
+############ Logging method invocation #110 on mock/spy ########
+recorder.select(null, null, null, null);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.returnTrail(SingleAntEasyChoicesWithFood.java:182)
+   has returned: "null"
+
+############ Logging method invocation #111 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='Hill'}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.returnTrail(SingleAntEasyChoicesWithFood.java:183)
+   has returned: "null"
+
+############ Logging method invocation #112 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C995', trails=3, initialFood=0, capacity=4}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.returnTrail(SingleAntEasyChoicesWithFood.java:184)
+   has returned: "null"
+
+############ Logging method invocation #113 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='Hill', trails=2, initialFood=0, capacity=âˆž}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.returnTrail(SingleAntEasyChoicesWithFood.java:185)
+   has returned: "null"
+
+############ Logging method invocation #114 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='Hill'}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.returnTrail(SingleAntEasyChoicesWithFood.java:186)
+   has returned: "null"
+
+############ Logging method invocation #115 on mock/spy ########
+recorder.updateFood(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='Hill', to='C995'},
+    âˆž
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.returnTrail(SingleAntEasyChoicesWithFood.java:187)
+   has returned: "null"
+
+############ Logging method invocation #116 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='Hill', trails=2, initialFood=0, capacity=âˆž}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:165)
+   has returned: "null"
+
+############ Logging method invocation #117 on mock/spy ########
+recorder.despawn(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    TERMINATED
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:166)
+   has returned: "null"
+
+############ Logging method invocation #118 on mock/spy ########
+recorder.stop();
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:168)
+   has returned: "null"
+
+############ Logging method invocation #1 on mock/spy ########
+recorder.start();
+   invoked: -> at com.pseuco.np21.Simulator.run(Simulator.java:49)
+   has returned: "null"
+
+############ Logging method invocation #2 on mock/spy ########
+recorder.spawn(
+    Ant{name='Anthony', impatience=2, disguise=1000}
+);
+   invoked: -> at com.pseuco.np21.Ant.run(Ant.java:264)
+   has returned: "null"
+
+############ Logging method invocation #3 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='Hill', trails=2, initialFood=0, capacity=âˆž}
+);
+   invoked: -> at com.pseuco.np21.Ant.run(Ant.java:266)
+   has returned: "null"
+
+############ Logging method invocation #4 on mock/spy ########
+recorder.startFoodSearch(
+    Ant{name='Anthony', impatience=2, disguise=1000}
+);
+   invoked: -> at com.pseuco.np21.Ant.run(Ant.java:271)
+   has returned: "null"
+
+############ Logging method invocation #5 on mock/spy ########
+recorder.startExploration(
+    Ant{name='Anthony', impatience=2, disguise=1000}
+);
+   invoked: -> at com.pseuco.np21.Ant.forwardMoving(Ant.java:187)
+   has returned: "null"
+
+############ Logging method invocation #6 on mock/spy ########
+recorder.select(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='Hill', to='C995'},
+    [Trail{from='Hill', to='C995'}],
+    EXPLORATION
+);
+   invoked: -> at com.pseuco.np21.Ant.forwardMoving(Ant.java:188)
+   has returned: "null"
+
+############ Logging method invocation #7 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='Hill', to='C995'}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:68)
+   has returned: "null"
+
+############ Logging method invocation #8 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='Hill', trails=2, initialFood=0, capacity=âˆž}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:69)
+   has returned: "null"
+
+############ Logging method invocation #9 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C995', trails=3, initialFood=0, capacity=4}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.recorderStuffEnterClearingLeaveTrail(AntRunHandler.java:25)
+   has returned: "null"
+
+############ Logging method invocation #10 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='Hill', to='C995'}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.recorderStuffEnterClearingLeaveTrail(AntRunHandler.java:26)
+   has returned: "null"
+
+############ Logging method invocation #11 on mock/spy ########
+recorder.updateAnthill(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='Hill'},
+    1
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.handleEnterClearingFoodSearch(AntRunHandler.java:101)
+   has returned: "null"
+
+############ Logging method invocation #12 on mock/spy ########
+recorder.select(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='C990'},
+    [Trail{from='C995', to='C990'}],
+    FOOD_SEARCH
+);
+   invoked: -> at com.pseuco.np21.Ant.forwardMoving(Ant.java:183)
+   has returned: "null"
+
+############ Logging method invocation #13 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='C990'}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:68)
+   has returned: "null"
+
+############ Logging method invocation #14 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C995', trails=3, initialFood=0, capacity=4}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:69)
+   has returned: "null"
+
+############ Logging method invocation #15 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C990', trails=1, initialFood=1, capacity=3}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.recorderStuffEnterClearingLeaveTrail(AntRunHandler.java:25)
+   has returned: "null"
+
+############ Logging method invocation #16 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='C990'}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.recorderStuffEnterClearingLeaveTrail(AntRunHandler.java:26)
+   has returned: "null"
+
+############ Logging method invocation #17 on mock/spy ########
+recorder.updateAnthill(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C990', to='C995'},
+    2
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.handleEnterClearingFoodSearch(AntRunHandler.java:101)
+   has returned: "null"
+
+############ Logging method invocation #18 on mock/spy ########
+recorder.pickupFood(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C990', trails=1, initialFood=1, capacity=3}
+);
+   invoked: -> at com.pseuco.np21.Ant.forwardMoving(Ant.java:204)
+   has returned: "null"
+
+############ Logging method invocation #19 on mock/spy ########
+recorder.startFoodReturn(
+    Ant{name='Anthony', impatience=2, disguise=1000}
+);
+   invoked: -> at com.pseuco.np21.Ant.forwardMoving(Ant.java:205)
+   has returned: "null"
+
+############ Logging method invocation #20 on mock/spy ########
+recorder.select(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C990', to='C995'},
+    [Trail{from='C990', to='C995'}],
+    RETURN_IN_SEQUENCE
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.homewardMoving(AntRunHandler.java:219)
+   has returned: "null"
+
+############ Logging method invocation #21 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C990', to='C995'}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:68)
+   has returned: "null"
+
+############ Logging method invocation #22 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C990', trails=1, initialFood=1, capacity=3}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:69)
+   has returned: "null"
+
+############ Logging method invocation #23 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C995', trails=3, initialFood=0, capacity=4}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.recorderStuffEnterClearingLeaveTrail(AntRunHandler.java:25)
+   has returned: "null"
+
+############ Logging method invocation #24 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C990', to='C995'}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.recorderStuffEnterClearingLeaveTrail(AntRunHandler.java:26)
+   has returned: "null"
+
+############ Logging method invocation #25 on mock/spy ########
+recorder.select(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='Hill'},
+    [Trail{from='C995', to='Hill'}],
+    RETURN_IN_SEQUENCE
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.homewardMoving(AntRunHandler.java:219)
+   has returned: "null"
+
+############ Logging method invocation #26 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='Hill'}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:68)
+   has returned: "null"
+
+############ Logging method invocation #27 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C995', trails=3, initialFood=0, capacity=4}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:69)
+   has returned: "null"
+
+############ Logging method invocation #28 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='Hill', trails=2, initialFood=0, capacity=âˆž}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.recorderStuffEnterClearingLeaveTrail(AntRunHandler.java:25)
+   has returned: "null"
+
+############ Logging method invocation #29 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='Hill'}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.recorderStuffEnterClearingLeaveTrail(AntRunHandler.java:26)
+   has returned: "null"
+
+############ Logging method invocation #30 on mock/spy ########
+recorder.returnedFood(
+    Ant{name='Anthony', impatience=2, disguise=1000}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.homewardMoving(AntRunHandler.java:282)
+   has returned: "null"
+
+############ Logging method invocation #31 on mock/spy ########
+recorder.startFoodSearch(
+    Ant{name='Anthony', impatience=2, disguise=1000}
+);
+   invoked: -> at com.pseuco.np21.Ant.run(Ant.java:271)
+   has returned: "null"
+
+############ Logging method invocation #32 on mock/spy ########
+recorder.startExploration(
+    Ant{name='Anthony', impatience=2, disguise=1000}
+);
+   invoked: -> at com.pseuco.np21.Ant.forwardMoving(Ant.java:187)
+   has returned: "null"
+
+############ Logging method invocation #33 on mock/spy ########
+recorder.select(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='Hill', to='C995'},
+    [Trail{from='Hill', to='C995'}],
+    EXPLORATION
+);
+   invoked: -> at com.pseuco.np21.Ant.forwardMoving(Ant.java:188)
+   has returned: "null"
+
+############ Logging method invocation #34 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='Hill', to='C995'}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:68)
+   has returned: "null"
+
+############ Logging method invocation #35 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='Hill', trails=2, initialFood=0, capacity=âˆž}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:69)
+   has returned: "null"
+
+############ Logging method invocation #36 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C995', trails=3, initialFood=0, capacity=4}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.recorderStuffEnterClearingLeaveTrail(AntRunHandler.java:25)
+   has returned: "null"
+
+############ Logging method invocation #37 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='Hill', to='C995'}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.recorderStuffEnterClearingLeaveTrail(AntRunHandler.java:26)
+   has returned: "null"
+
+############ Logging method invocation #38 on mock/spy ########
+recorder.updateAnthill(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='Hill'},
+    1
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.handleEnterClearingFoodSearch(AntRunHandler.java:101)
+   has returned: "null"
+
+############ Logging method invocation #39 on mock/spy ########
+recorder.select(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='C990'},
+    [Trail{from='C995', to='C990'}],
+    FOOD_SEARCH
+);
+   invoked: -> at com.pseuco.np21.Ant.forwardMoving(Ant.java:183)
+   has returned: "null"
+
+############ Logging method invocation #40 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='C990'}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:68)
+   has returned: "null"
+
+############ Logging method invocation #41 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C995', trails=3, initialFood=0, capacity=4}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:69)
+   has returned: "null"
+
+############ Logging method invocation #42 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C990', trails=1, initialFood=1, capacity=3}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.recorderStuffEnterClearingLeaveTrail(AntRunHandler.java:25)
+   has returned: "null"
+
+############ Logging method invocation #43 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='C990'}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.recorderStuffEnterClearingLeaveTrail(AntRunHandler.java:26)
+   has returned: "null"
+
+############ Logging method invocation #44 on mock/spy ########
+recorder.updateAnthill(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C990', to='C995'},
+    2
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.handleEnterClearingFoodSearch(AntRunHandler.java:101)
+   has returned: "null"
+
+############ Logging method invocation #45 on mock/spy ########
+recorder.select(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C990', to='C995'},
+    [Trail{from='C995', to='C990'}],
+    NO_FOOD_RETURN
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.GoBackByNoFoodReturn(AntRunHandler.java:158)
+   has returned: "null"
+
+############ Logging method invocation #46 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C990', to='C995'}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:68)
+   has returned: "null"
+
+############ Logging method invocation #47 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C990', trails=1, initialFood=1, capacity=3}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:69)
+   has returned: "null"
+
+############ Logging method invocation #48 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C995', trails=3, initialFood=0, capacity=4}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.recorderStuffEnterClearingLeaveTrail(AntRunHandler.java:25)
+   has returned: "null"
+
+############ Logging method invocation #49 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C990', to='C995'}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.recorderStuffEnterClearingLeaveTrail(AntRunHandler.java:26)
+   has returned: "null"
+
+############ Logging method invocation #50 on mock/spy ########
+recorder.updateFood(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='C990'},
+    âˆž
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.GoBackByNoFoodReturn(AntRunHandler.java:167)
+   has returned: "null"
+
+############ Logging method invocation #51 on mock/spy ########
+recorder.select(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='Hill'},
+    [Trail{from='C995', to='C990'}],
+    NO_FOOD_RETURN
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.GoBackByNoFoodReturn(AntRunHandler.java:158)
+   has returned: "null"
+
+############ Logging method invocation #52 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='Hill'}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:68)
+   has returned: "null"
+
+############ Logging method invocation #53 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C995', trails=3, initialFood=0, capacity=4}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:69)
+   has returned: "null"
+
+############ Logging method invocation #54 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='Hill', trails=2, initialFood=0, capacity=âˆž}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.recorderStuffEnterClearingLeaveTrail(AntRunHandler.java:25)
+   has returned: "null"
+
+############ Logging method invocation #55 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='Hill'}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.recorderStuffEnterClearingLeaveTrail(AntRunHandler.java:26)
+   has returned: "null"
+
+############ Logging method invocation #56 on mock/spy ########
+recorder.updateFood(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='Hill', to='C995'},
+    âˆž
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.GoBackByNoFoodReturn(AntRunHandler.java:167)
+   has returned: "null"
+
+############ Logging method invocation #57 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='Hill', trails=2, initialFood=0, capacity=âˆž}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.leaveAndInterruptAtHill(AntRunHandler.java:189)
+   has returned: "null"
+
+############ Logging method invocation #58 on mock/spy ########
+recorder.despawn(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    TERMINATED
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.leaveAndInterruptAtHill(AntRunHandler.java:195)
+   has returned: "null"
+
+############ Logging method invocation #59 on mock/spy ########
+recorder.stop();
+   invoked: -> at com.pseuco.np21.Simulator.run(Simulator.java:75)
+   has returned: "null"
+
+############ Logging method invocation #60 on mock/spy ########
+recorder.start();
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:104)
+   has returned: "null"
+
+############ Logging method invocation #61 on mock/spy ########
+recorder.spawn(null);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:106)
+   has returned: "null"
+
+############ Logging method invocation #62 on mock/spy ########
+recorder.enter(null, null);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:107)
+   has returned: "null"
+
+############ Logging method invocation #63 on mock/spy ########
+recorder.startFoodSearch(null);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:109)
+   has returned: "null"
+
+############ Logging method invocation #64 on mock/spy ########
+recorder.startExploration(null);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:111)
+   has returned: "null"
+
+############ Logging method invocation #65 on mock/spy ########
+recorder.select(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='Hill', to='C995'},
+    [Trail{from='Hill', to='C995'}],
+    EXPLORATION
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.exploreSingleTrail(SingleAntEasyChoicesWithFood.java:174)
+   has returned: "null"
+
+############ Logging method invocation #66 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='Hill', to='C995'}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.exploreSingleTrail(SingleAntEasyChoicesWithFood.java:175)
+   has returned: "null"
+
+############ Logging method invocation #67 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='Hill', trails=2, initialFood=0, capacity=âˆž}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.exploreSingleTrail(SingleAntEasyChoicesWithFood.java:176)
+   has returned: "null"
+
+############ Logging method invocation #68 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C995', trails=3, initialFood=0, capacity=4}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.exploreSingleTrail(SingleAntEasyChoicesWithFood.java:177)
+   has returned: "null"
+
+############ Logging method invocation #69 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='Hill', to='C995'}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.exploreSingleTrail(SingleAntEasyChoicesWithFood.java:178)
+   has returned: "null"
+
+############ Logging method invocation #70 on mock/spy ########
+recorder.updateAnthill(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='Hill'},
+    1
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:115)
+   has returned: "null"
+
+############ Logging method invocation #71 on mock/spy ########
+recorder.select(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='C990'},
+    [Trail{from='C995', to='C990'}],
+    FOOD_SEARCH
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:118)
+   has returned: "null"
+
+############ Logging method invocation #72 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='C990'}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:119)
+   has returned: "null"
+
+############ Logging method invocation #73 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C995', trails=3, initialFood=0, capacity=4}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:120)
+   has returned: "null"
+
+############ Logging method invocation #74 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C990', trails=1, initialFood=1, capacity=3}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:121)
+   has returned: "null"
+
+############ Logging method invocation #75 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='C990'}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:122)
+   has returned: "null"
+
+############ Logging method invocation #76 on mock/spy ########
+recorder.updateAnthill(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C990', to='C995'},
+    2
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:123)
+   has returned: "null"
+
+############ Logging method invocation #77 on mock/spy ########
+recorder.pickupFood(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C990', trails=1, initialFood=1, capacity=3}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:125)
+   has returned: "null"
+
+############ Logging method invocation #78 on mock/spy ########
+recorder.startFoodReturn(
+    Ant{name='Anthony', impatience=2, disguise=1000}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:126)
+   has returned: "null"
+
+############ Logging method invocation #79 on mock/spy ########
+recorder.select(null, null, null, null);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:130)
+   has returned: "null"
+
+############ Logging method invocation #80 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C990', to='C995'}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:131)
+   has returned: "null"
+
+############ Logging method invocation #81 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C990', trails=1, initialFood=1, capacity=3}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:132)
+   has returned: "null"
+
+############ Logging method invocation #82 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C995', trails=3, initialFood=0, capacity=4}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:133)
+   has returned: "null"
+
+############ Logging method invocation #83 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C990', to='C995'}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:134)
+   has returned: "null"
+
+############ Logging method invocation #84 on mock/spy ########
+recorder.select(null, null, null, null);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:138)
+   has returned: "null"
+
+############ Logging method invocation #85 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='Hill'}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:139)
+   has returned: "null"
+
+############ Logging method invocation #86 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C995', trails=3, initialFood=0, capacity=4}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:140)
+   has returned: "null"
+
+############ Logging method invocation #87 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='Hill', trails=2, initialFood=0, capacity=âˆž}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:141)
+   has returned: "null"
+
+############ Logging method invocation #88 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='Hill'}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:142)
+   has returned: "null"
+
+############ Logging method invocation #89 on mock/spy ########
+recorder.returnedFood(
+    Ant{name='Anthony', impatience=2, disguise=1000}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:144)
+   has returned: "null"
+
+############ Logging method invocation #90 on mock/spy ########
+recorder.startFoodSearch(null);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:146)
+   has returned: "null"
+
+############ Logging method invocation #91 on mock/spy ########
+recorder.startExploration(null);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:148)
+   has returned: "null"
+
+############ Logging method invocation #92 on mock/spy ########
+recorder.select(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='Hill', to='C995'},
+    [Trail{from='Hill', to='C995'}],
+    EXPLORATION
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.exploreSingleTrail(SingleAntEasyChoicesWithFood.java:174)
+   has returned: "null"
+
+############ Logging method invocation #93 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='Hill', to='C995'}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.exploreSingleTrail(SingleAntEasyChoicesWithFood.java:175)
+   has returned: "null"
+
+############ Logging method invocation #94 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='Hill', trails=2, initialFood=0, capacity=âˆž}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.exploreSingleTrail(SingleAntEasyChoicesWithFood.java:176)
+   has returned: "null"
+
+############ Logging method invocation #95 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C995', trails=3, initialFood=0, capacity=4}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.exploreSingleTrail(SingleAntEasyChoicesWithFood.java:177)
+   has returned: "null"
+
+############ Logging method invocation #96 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='Hill', to='C995'}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.exploreSingleTrail(SingleAntEasyChoicesWithFood.java:178)
+   has returned: "null"
+
+############ Logging method invocation #97 on mock/spy ########
+recorder.updateAnthill(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='Hill'},
+    1
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:152)
+   has returned: "null"
+
+############ Logging method invocation #98 on mock/spy ########
+recorder.select(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='C990'},
+    [Trail{from='C995', to='C990'}],
+    FOOD_SEARCH
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:155)
+   has returned: "null"
+
+############ Logging method invocation #99 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='C990'}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:156)
+   has returned: "null"
+
+############ Logging method invocation #100 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C995', trails=3, initialFood=0, capacity=4}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:157)
+   has returned: "null"
+
+############ Logging method invocation #101 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C990', trails=1, initialFood=1, capacity=3}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:158)
+   has returned: "null"
+
+############ Logging method invocation #102 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='C990'}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:159)
+   has returned: "null"
+
+############ Logging method invocation #103 on mock/spy ########
+recorder.updateAnthill(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C990', to='C995'},
+    2
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:160)
+   has returned: "null"
+
+############ Logging method invocation #104 on mock/spy ########
+recorder.select(null, null, null, null);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.returnTrail(SingleAntEasyChoicesWithFood.java:182)
+   has returned: "null"
+
+############ Logging method invocation #105 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C990', to='C995'}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.returnTrail(SingleAntEasyChoicesWithFood.java:183)
+   has returned: "null"
+
+############ Logging method invocation #106 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C990', trails=1, initialFood=1, capacity=3}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.returnTrail(SingleAntEasyChoicesWithFood.java:184)
+   has returned: "null"
+
+############ Logging method invocation #107 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C995', trails=3, initialFood=0, capacity=4}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.returnTrail(SingleAntEasyChoicesWithFood.java:185)
+   has returned: "null"
+
+############ Logging method invocation #108 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C990', to='C995'}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.returnTrail(SingleAntEasyChoicesWithFood.java:186)
+   has returned: "null"
+
+############ Logging method invocation #109 on mock/spy ########
+recorder.updateFood(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='C990'},
+    âˆž
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.returnTrail(SingleAntEasyChoicesWithFood.java:187)
+   has returned: "null"
+
+############ Logging method invocation #110 on mock/spy ########
+recorder.select(null, null, null, null);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.returnTrail(SingleAntEasyChoicesWithFood.java:182)
+   has returned: "null"
+
+############ Logging method invocation #111 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='Hill'}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.returnTrail(SingleAntEasyChoicesWithFood.java:183)
+   has returned: "null"
+
+############ Logging method invocation #112 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C995', trails=3, initialFood=0, capacity=4}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.returnTrail(SingleAntEasyChoicesWithFood.java:184)
+   has returned: "null"
+
+############ Logging method invocation #113 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='Hill', trails=2, initialFood=0, capacity=âˆž}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.returnTrail(SingleAntEasyChoicesWithFood.java:185)
+   has returned: "null"
+
+############ Logging method invocation #114 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='Hill'}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.returnTrail(SingleAntEasyChoicesWithFood.java:186)
+   has returned: "null"
+
+############ Logging method invocation #115 on mock/spy ########
+recorder.updateFood(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='Hill', to='C995'},
+    âˆž
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.returnTrail(SingleAntEasyChoicesWithFood.java:187)
+   has returned: "null"
+
+############ Logging method invocation #116 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='Hill', trails=2, initialFood=0, capacity=âˆž}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:165)
+   has returned: "null"
+
+############ Logging method invocation #117 on mock/spy ########
+recorder.despawn(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    TERMINATED
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:166)
+   has returned: "null"
+
+############ Logging method invocation #118 on mock/spy ########
+recorder.stop();
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:168)
+   has returned: "null"
+
+############ Logging method invocation #1 on mock/spy ########
+recorder.start();
+   invoked: -> at com.pseuco.np21.Simulator.run(Simulator.java:49)
+   has returned: "null"
+
+############ Logging method invocation #2 on mock/spy ########
+recorder.spawn(
+    Ant{name='Anthony', impatience=2, disguise=1000}
+);
+   invoked: -> at com.pseuco.np21.Ant.run(Ant.java:264)
+   has returned: "null"
+
+############ Logging method invocation #3 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='Hill', trails=2, initialFood=0, capacity=âˆž}
+);
+   invoked: -> at com.pseuco.np21.Ant.run(Ant.java:266)
+   has returned: "null"
+
+############ Logging method invocation #4 on mock/spy ########
+recorder.startFoodSearch(
+    Ant{name='Anthony', impatience=2, disguise=1000}
+);
+   invoked: -> at com.pseuco.np21.Ant.run(Ant.java:271)
+   has returned: "null"
+
+############ Logging method invocation #5 on mock/spy ########
+recorder.startExploration(
+    Ant{name='Anthony', impatience=2, disguise=1000}
+);
+   invoked: -> at com.pseuco.np21.Ant.forwardMoving(Ant.java:187)
+   has returned: "null"
+
+############ Logging method invocation #6 on mock/spy ########
+recorder.select(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='Hill', to='C995'},
+    [Trail{from='Hill', to='C995'}],
+    EXPLORATION
+);
+   invoked: -> at com.pseuco.np21.Ant.forwardMoving(Ant.java:188)
+   has returned: "null"
+
+############ Logging method invocation #7 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='Hill', to='C995'}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:68)
+   has returned: "null"
+
+############ Logging method invocation #8 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='Hill', trails=2, initialFood=0, capacity=âˆž}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:69)
+   has returned: "null"
+
+############ Logging method invocation #9 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C995', trails=3, initialFood=0, capacity=4}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.recorderStuffEnterClearingLeaveTrail(AntRunHandler.java:25)
+   has returned: "null"
+
+############ Logging method invocation #10 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='Hill', to='C995'}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.recorderStuffEnterClearingLeaveTrail(AntRunHandler.java:26)
+   has returned: "null"
+
+############ Logging method invocation #11 on mock/spy ########
+recorder.updateAnthill(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='Hill'},
+    1
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.handleEnterClearingFoodSearch(AntRunHandler.java:101)
+   has returned: "null"
+
+############ Logging method invocation #12 on mock/spy ########
+recorder.select(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='C990'},
+    [Trail{from='C995', to='C990'}],
+    FOOD_SEARCH
+);
+   invoked: -> at com.pseuco.np21.Ant.forwardMoving(Ant.java:183)
+   has returned: "null"
+
+############ Logging method invocation #13 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='C990'}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:68)
+   has returned: "null"
+
+############ Logging method invocation #14 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C995', trails=3, initialFood=0, capacity=4}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:69)
+   has returned: "null"
+
+############ Logging method invocation #15 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C990', trails=1, initialFood=1, capacity=3}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.recorderStuffEnterClearingLeaveTrail(AntRunHandler.java:25)
+   has returned: "null"
+
+############ Logging method invocation #16 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='C990'}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.recorderStuffEnterClearingLeaveTrail(AntRunHandler.java:26)
+   has returned: "null"
+
+############ Logging method invocation #17 on mock/spy ########
+recorder.updateAnthill(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C990', to='C995'},
+    2
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.handleEnterClearingFoodSearch(AntRunHandler.java:101)
+   has returned: "null"
+
+############ Logging method invocation #18 on mock/spy ########
+recorder.pickupFood(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C990', trails=1, initialFood=1, capacity=3}
+);
+   invoked: -> at com.pseuco.np21.Ant.forwardMoving(Ant.java:204)
+   has returned: "null"
+
+############ Logging method invocation #19 on mock/spy ########
+recorder.startFoodReturn(
+    Ant{name='Anthony', impatience=2, disguise=1000}
+);
+   invoked: -> at com.pseuco.np21.Ant.forwardMoving(Ant.java:205)
+   has returned: "null"
+
+############ Logging method invocation #20 on mock/spy ########
+recorder.select(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C990', to='C995'},
+    [Trail{from='C990', to='C995'}],
+    RETURN_IN_SEQUENCE
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.homewardMoving(AntRunHandler.java:219)
+   has returned: "null"
+
+############ Logging method invocation #21 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C990', to='C995'}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:68)
+   has returned: "null"
+
+############ Logging method invocation #22 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C990', trails=1, initialFood=1, capacity=3}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:69)
+   has returned: "null"
+
+############ Logging method invocation #23 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C995', trails=3, initialFood=0, capacity=4}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.recorderStuffEnterClearingLeaveTrail(AntRunHandler.java:25)
+   has returned: "null"
+
+############ Logging method invocation #24 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C990', to='C995'}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.recorderStuffEnterClearingLeaveTrail(AntRunHandler.java:26)
+   has returned: "null"
+
+############ Logging method invocation #25 on mock/spy ########
+recorder.select(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='Hill'},
+    [Trail{from='C995', to='Hill'}],
+    RETURN_IN_SEQUENCE
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.homewardMoving(AntRunHandler.java:219)
+   has returned: "null"
+
+############ Logging method invocation #26 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='Hill'}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:68)
+   has returned: "null"
+
+############ Logging method invocation #27 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C995', trails=3, initialFood=0, capacity=4}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:69)
+   has returned: "null"
+
+############ Logging method invocation #28 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='Hill', trails=2, initialFood=0, capacity=âˆž}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.recorderStuffEnterClearingLeaveTrail(AntRunHandler.java:25)
+   has returned: "null"
+
+############ Logging method invocation #29 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='Hill'}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.recorderStuffEnterClearingLeaveTrail(AntRunHandler.java:26)
+   has returned: "null"
+
+############ Logging method invocation #30 on mock/spy ########
+recorder.returnedFood(
+    Ant{name='Anthony', impatience=2, disguise=1000}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.homewardMoving(AntRunHandler.java:282)
+   has returned: "null"
+
+############ Logging method invocation #31 on mock/spy ########
+recorder.startFoodSearch(
+    Ant{name='Anthony', impatience=2, disguise=1000}
+);
+   invoked: -> at com.pseuco.np21.Ant.run(Ant.java:271)
+   has returned: "null"
+
+############ Logging method invocation #32 on mock/spy ########
+recorder.startExploration(
+    Ant{name='Anthony', impatience=2, disguise=1000}
+);
+   invoked: -> at com.pseuco.np21.Ant.forwardMoving(Ant.java:187)
+   has returned: "null"
+
+############ Logging method invocation #33 on mock/spy ########
+recorder.select(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='Hill', to='C995'},
+    [Trail{from='Hill', to='C995'}],
+    EXPLORATION
+);
+   invoked: -> at com.pseuco.np21.Ant.forwardMoving(Ant.java:188)
+   has returned: "null"
+
+############ Logging method invocation #34 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='Hill', to='C995'}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:68)
+   has returned: "null"
+
+############ Logging method invocation #35 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='Hill', trails=2, initialFood=0, capacity=âˆž}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:69)
+   has returned: "null"
+
+############ Logging method invocation #36 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C995', trails=3, initialFood=0, capacity=4}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.recorderStuffEnterClearingLeaveTrail(AntRunHandler.java:25)
+   has returned: "null"
+
+############ Logging method invocation #37 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='Hill', to='C995'}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.recorderStuffEnterClearingLeaveTrail(AntRunHandler.java:26)
+   has returned: "null"
+
+############ Logging method invocation #38 on mock/spy ########
+recorder.updateAnthill(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='Hill'},
+    1
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.handleEnterClearingFoodSearch(AntRunHandler.java:101)
+   has returned: "null"
+
+############ Logging method invocation #39 on mock/spy ########
+recorder.select(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='C990'},
+    [Trail{from='C995', to='C990'}],
+    FOOD_SEARCH
+);
+   invoked: -> at com.pseuco.np21.Ant.forwardMoving(Ant.java:183)
+   has returned: "null"
+
+############ Logging method invocation #40 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='C990'}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:68)
+   has returned: "null"
+
+############ Logging method invocation #41 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C995', trails=3, initialFood=0, capacity=4}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:69)
+   has returned: "null"
+
+############ Logging method invocation #42 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C990', trails=1, initialFood=1, capacity=3}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.recorderStuffEnterClearingLeaveTrail(AntRunHandler.java:25)
+   has returned: "null"
+
+############ Logging method invocation #43 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='C990'}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.recorderStuffEnterClearingLeaveTrail(AntRunHandler.java:26)
+   has returned: "null"
+
+############ Logging method invocation #44 on mock/spy ########
+recorder.updateAnthill(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C990', to='C995'},
+    2
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.handleEnterClearingFoodSearch(AntRunHandler.java:101)
+   has returned: "null"
+
+############ Logging method invocation #45 on mock/spy ########
+recorder.select(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C990', to='C995'},
+    [Trail{from='C995', to='C990'}],
+    NO_FOOD_RETURN
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.GoBackByNoFoodReturn(AntRunHandler.java:158)
+   has returned: "null"
+
+############ Logging method invocation #46 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C990', to='C995'}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:68)
+   has returned: "null"
+
+############ Logging method invocation #47 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C990', trails=1, initialFood=1, capacity=3}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:69)
+   has returned: "null"
+
+############ Logging method invocation #48 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C995', trails=3, initialFood=0, capacity=4}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.recorderStuffEnterClearingLeaveTrail(AntRunHandler.java:25)
+   has returned: "null"
+
+############ Logging method invocation #49 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C990', to='C995'}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.recorderStuffEnterClearingLeaveTrail(AntRunHandler.java:26)
+   has returned: "null"
+
+############ Logging method invocation #50 on mock/spy ########
+recorder.updateFood(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='C990'},
+    âˆž
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.GoBackByNoFoodReturn(AntRunHandler.java:167)
+   has returned: "null"
+
+############ Logging method invocation #51 on mock/spy ########
+recorder.select(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='Hill'},
+    [Trail{from='C995', to='C990'}],
+    NO_FOOD_RETURN
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.GoBackByNoFoodReturn(AntRunHandler.java:158)
+   has returned: "null"
+
+############ Logging method invocation #52 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='Hill'}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:68)
+   has returned: "null"
+
+############ Logging method invocation #53 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C995', trails=3, initialFood=0, capacity=4}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:69)
+   has returned: "null"
+
+############ Logging method invocation #54 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='Hill', trails=2, initialFood=0, capacity=âˆž}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.recorderStuffEnterClearingLeaveTrail(AntRunHandler.java:25)
+   has returned: "null"
+
+############ Logging method invocation #55 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='Hill'}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.recorderStuffEnterClearingLeaveTrail(AntRunHandler.java:26)
+   has returned: "null"
+
+############ Logging method invocation #56 on mock/spy ########
+recorder.updateFood(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='Hill', to='C995'},
+    âˆž
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.GoBackByNoFoodReturn(AntRunHandler.java:167)
+   has returned: "null"
+
+############ Logging method invocation #57 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='Hill', trails=2, initialFood=0, capacity=âˆž}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.leaveAndInterruptAtHill(AntRunHandler.java:189)
+   has returned: "null"
+
+############ Logging method invocation #58 on mock/spy ########
+recorder.despawn(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    TERMINATED
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.leaveAndInterruptAtHill(AntRunHandler.java:195)
+   has returned: "null"
+
+############ Logging method invocation #59 on mock/spy ########
+recorder.stop();
+   invoked: -> at com.pseuco.np21.Simulator.run(Simulator.java:75)
+   has returned: "null"
+
+############ Logging method invocation #60 on mock/spy ########
+recorder.start();
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:104)
+   has returned: "null"
+
+############ Logging method invocation #61 on mock/spy ########
+recorder.spawn(null);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:106)
+   has returned: "null"
+
+############ Logging method invocation #62 on mock/spy ########
+recorder.enter(null, null);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:107)
+   has returned: "null"
+
+############ Logging method invocation #63 on mock/spy ########
+recorder.startFoodSearch(null);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:109)
+   has returned: "null"
+
+############ Logging method invocation #64 on mock/spy ########
+recorder.startExploration(null);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:111)
+   has returned: "null"
+
+############ Logging method invocation #65 on mock/spy ########
+recorder.select(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='Hill', to='C995'},
+    [Trail{from='Hill', to='C995'}],
+    EXPLORATION
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.exploreSingleTrail(SingleAntEasyChoicesWithFood.java:174)
+   has returned: "null"
+
+############ Logging method invocation #66 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='Hill', to='C995'}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.exploreSingleTrail(SingleAntEasyChoicesWithFood.java:175)
+   has returned: "null"
+
+############ Logging method invocation #67 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='Hill', trails=2, initialFood=0, capacity=âˆž}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.exploreSingleTrail(SingleAntEasyChoicesWithFood.java:176)
+   has returned: "null"
+
+############ Logging method invocation #68 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C995', trails=3, initialFood=0, capacity=4}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.exploreSingleTrail(SingleAntEasyChoicesWithFood.java:177)
+   has returned: "null"
+
+############ Logging method invocation #69 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='Hill', to='C995'}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.exploreSingleTrail(SingleAntEasyChoicesWithFood.java:178)
+   has returned: "null"
+
+############ Logging method invocation #70 on mock/spy ########
+recorder.updateAnthill(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='Hill'},
+    1
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:115)
+   has returned: "null"
+
+############ Logging method invocation #71 on mock/spy ########
+recorder.select(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='C990'},
+    [Trail{from='C995', to='C990'}],
+    FOOD_SEARCH
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:118)
+   has returned: "null"
+
+############ Logging method invocation #72 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='C990'}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:119)
+   has returned: "null"
+
+############ Logging method invocation #73 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C995', trails=3, initialFood=0, capacity=4}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:120)
+   has returned: "null"
+
+############ Logging method invocation #74 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C990', trails=1, initialFood=1, capacity=3}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:121)
+   has returned: "null"
+
+############ Logging method invocation #75 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='C990'}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:122)
+   has returned: "null"
+
+############ Logging method invocation #76 on mock/spy ########
+recorder.updateAnthill(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C990', to='C995'},
+    2
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:123)
+   has returned: "null"
+
+############ Logging method invocation #77 on mock/spy ########
+recorder.pickupFood(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C990', trails=1, initialFood=1, capacity=3}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:125)
+   has returned: "null"
+
+############ Logging method invocation #78 on mock/spy ########
+recorder.startFoodReturn(
+    Ant{name='Anthony', impatience=2, disguise=1000}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:126)
+   has returned: "null"
+
+############ Logging method invocation #79 on mock/spy ########
+recorder.select(null, null, null, null);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:130)
+   has returned: "null"
+
+############ Logging method invocation #80 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C990', to='C995'}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:131)
+   has returned: "null"
+
+############ Logging method invocation #81 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C990', trails=1, initialFood=1, capacity=3}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:132)
+   has returned: "null"
+
+############ Logging method invocation #82 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C995', trails=3, initialFood=0, capacity=4}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:133)
+   has returned: "null"
+
+############ Logging method invocation #83 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C990', to='C995'}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:134)
+   has returned: "null"
+
+############ Logging method invocation #84 on mock/spy ########
+recorder.select(null, null, null, null);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:138)
+   has returned: "null"
+
+############ Logging method invocation #85 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='Hill'}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:139)
+   has returned: "null"
+
+############ Logging method invocation #86 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C995', trails=3, initialFood=0, capacity=4}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:140)
+   has returned: "null"
+
+############ Logging method invocation #87 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='Hill', trails=2, initialFood=0, capacity=âˆž}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:141)
+   has returned: "null"
+
+############ Logging method invocation #88 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='Hill'}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:142)
+   has returned: "null"
+
+############ Logging method invocation #89 on mock/spy ########
+recorder.returnedFood(
+    Ant{name='Anthony', impatience=2, disguise=1000}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:144)
+   has returned: "null"
+
+############ Logging method invocation #90 on mock/spy ########
+recorder.startFoodSearch(null);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:146)
+   has returned: "null"
+
+############ Logging method invocation #91 on mock/spy ########
+recorder.startExploration(null);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:148)
+   has returned: "null"
+
+############ Logging method invocation #92 on mock/spy ########
+recorder.select(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='Hill', to='C995'},
+    [Trail{from='Hill', to='C995'}],
+    EXPLORATION
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.exploreSingleTrail(SingleAntEasyChoicesWithFood.java:174)
+   has returned: "null"
+
+############ Logging method invocation #93 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='Hill', to='C995'}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.exploreSingleTrail(SingleAntEasyChoicesWithFood.java:175)
+   has returned: "null"
+
+############ Logging method invocation #94 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='Hill', trails=2, initialFood=0, capacity=âˆž}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.exploreSingleTrail(SingleAntEasyChoicesWithFood.java:176)
+   has returned: "null"
+
+############ Logging method invocation #95 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C995', trails=3, initialFood=0, capacity=4}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.exploreSingleTrail(SingleAntEasyChoicesWithFood.java:177)
+   has returned: "null"
+
+############ Logging method invocation #96 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='Hill', to='C995'}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.exploreSingleTrail(SingleAntEasyChoicesWithFood.java:178)
+   has returned: "null"
+
+############ Logging method invocation #97 on mock/spy ########
+recorder.updateAnthill(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='Hill'},
+    1
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:152)
+   has returned: "null"
+
+############ Logging method invocation #98 on mock/spy ########
+recorder.select(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='C990'},
+    [Trail{from='C995', to='C990'}],
+    FOOD_SEARCH
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:155)
+   has returned: "null"
+
+############ Logging method invocation #99 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='C990'}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:156)
+   has returned: "null"
+
+############ Logging method invocation #100 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C995', trails=3, initialFood=0, capacity=4}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:157)
+   has returned: "null"
+
+############ Logging method invocation #101 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C990', trails=1, initialFood=1, capacity=3}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:158)
+   has returned: "null"
+
+############ Logging method invocation #102 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='C990'}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:159)
+   has returned: "null"
+
+############ Logging method invocation #103 on mock/spy ########
+recorder.updateAnthill(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C990', to='C995'},
+    2
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:160)
+   has returned: "null"
+
+############ Logging method invocation #104 on mock/spy ########
+recorder.select(null, null, null, null);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.returnTrail(SingleAntEasyChoicesWithFood.java:182)
+   has returned: "null"
+
+############ Logging method invocation #105 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C990', to='C995'}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.returnTrail(SingleAntEasyChoicesWithFood.java:183)
+   has returned: "null"
+
+############ Logging method invocation #106 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C990', trails=1, initialFood=1, capacity=3}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.returnTrail(SingleAntEasyChoicesWithFood.java:184)
+   has returned: "null"
+
+############ Logging method invocation #107 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C995', trails=3, initialFood=0, capacity=4}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.returnTrail(SingleAntEasyChoicesWithFood.java:185)
+   has returned: "null"
+
+############ Logging method invocation #108 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C990', to='C995'}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.returnTrail(SingleAntEasyChoicesWithFood.java:186)
+   has returned: "null"
+
+############ Logging method invocation #109 on mock/spy ########
+recorder.updateFood(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='C990'},
+    âˆž
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.returnTrail(SingleAntEasyChoicesWithFood.java:187)
+   has returned: "null"
+
+############ Logging method invocation #110 on mock/spy ########
+recorder.select(null, null, null, null);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.returnTrail(SingleAntEasyChoicesWithFood.java:182)
+   has returned: "null"
+
+############ Logging method invocation #111 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='Hill'}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.returnTrail(SingleAntEasyChoicesWithFood.java:183)
+   has returned: "null"
+
+############ Logging method invocation #112 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='C995', trails=3, initialFood=0, capacity=4}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.returnTrail(SingleAntEasyChoicesWithFood.java:184)
+   has returned: "null"
+
+############ Logging method invocation #113 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='Hill', trails=2, initialFood=0, capacity=âˆž}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.returnTrail(SingleAntEasyChoicesWithFood.java:185)
+   has returned: "null"
+
+############ Logging method invocation #114 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='C995', to='Hill'}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.returnTrail(SingleAntEasyChoicesWithFood.java:186)
+   has returned: "null"
+
+############ Logging method invocation #115 on mock/spy ########
+recorder.updateFood(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Trail{from='Hill', to='C995'},
+    âˆž
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.returnTrail(SingleAntEasyChoicesWithFood.java:187)
+   has returned: "null"
+
+############ Logging method invocation #116 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='Hill', trails=2, initialFood=0, capacity=âˆž}
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:165)
+   has returned: "null"
+
+############ Logging method invocation #117 on mock/spy ########
+recorder.despawn(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    TERMINATED
+);
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:166)
+   has returned: "null"
+
+############ Logging method invocation #118 on mock/spy ########
+recorder.stop();
+   invoked: -> at com.pseuco.np21.SingleAntEasyChoicesWithFood.run(SingleAntEasyChoicesWithFood.java:168)
+   has returned: "null"
+
+]]></system-out>
+  <system-err><![CDATA[java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.leaveAndInterruptAtHill(AntRunHandler.java:200)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:250)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:225)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:225)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.leaveAndInterruptAtHill(AntRunHandler.java:200)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:250)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:225)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:225)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.leaveAndInterruptAtHill(AntRunHandler.java:200)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:250)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:225)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:225)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.leaveAndInterruptAtHill(AntRunHandler.java:200)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:250)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:225)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:225)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.leaveAndInterruptAtHill(AntRunHandler.java:200)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:250)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:225)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:225)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+]]></system-err>
+</testsuite>

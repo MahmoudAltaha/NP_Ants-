@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - SingleAntNoTrails</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>SingleAntNoTrails</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.pseuco.np21.shared.html">com.pseuco.np21.shared</a> &gt; SingleAntNoTrails</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.098s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+<li>
+<a href="#tab2">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">run()</td>
+<td class="success">0.098s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>############ Logging method invocation #1 on mock/spy ########
+recorder.start();
+   invoked: -&gt; at com.pseuco.np21.Simulator.run(Simulator.java:49)
+   has returned: &quot;null&quot;
+
+############ Logging method invocation #2 on mock/spy ########
+recorder.spawn(
+    Ant{name='Anthony', impatience=2, disguise=1000}
+);
+   invoked: -&gt; at com.pseuco.np21.Ant.run(Ant.java:264)
+   has returned: &quot;null&quot;
+
+############ Logging method invocation #3 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='Hill', trails=0, initialFood=0, capacity=âˆž}
+);
+   invoked: -&gt; at com.pseuco.np21.Ant.run(Ant.java:266)
+   has returned: &quot;null&quot;
+
+############ Logging method invocation #4 on mock/spy ########
+recorder.startFoodSearch(
+    Ant{name='Anthony', impatience=2, disguise=1000}
+);
+   invoked: -&gt; at com.pseuco.np21.Ant.run(Ant.java:271)
+   has returned: &quot;null&quot;
+
+############ Logging method invocation #5 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='Hill', trails=0, initialFood=0, capacity=âˆž}
+);
+   invoked: -&gt; at com.pseuco.np21.AntRunHandler.leaveAndInterruptAtHill(AntRunHandler.java:189)
+   has returned: &quot;null&quot;
+
+############ Logging method invocation #6 on mock/spy ########
+recorder.despawn(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    TERMINATED
+);
+   invoked: -&gt; at com.pseuco.np21.AntRunHandler.leaveAndInterruptAtHill(AntRunHandler.java:195)
+   has returned: &quot;null&quot;
+
+############ Logging method invocation #7 on mock/spy ########
+recorder.stop();
+   invoked: -&gt; at com.pseuco.np21.Simulator.run(Simulator.java:75)
+   has returned: &quot;null&quot;
+
+############ Logging method invocation #8 on mock/spy ########
+recorder.start();
+   invoked: -&gt; at com.pseuco.np21.shared.SingleAntNoTrails.run(SingleAntNoTrails.java:95)
+   has returned: &quot;null&quot;
+
+############ Logging method invocation #9 on mock/spy ########
+recorder.spawn(null);
+   invoked: -&gt; at com.pseuco.np21.shared.SingleAntNoTrails.run(SingleAntNoTrails.java:97)
+   has returned: &quot;null&quot;
+
+############ Logging method invocation #10 on mock/spy ########
+recorder.enter(null, null);
+   invoked: -&gt; at com.pseuco.np21.shared.SingleAntNoTrails.run(SingleAntNoTrails.java:98)
+   has returned: &quot;null&quot;
+
+############ Logging method invocation #11 on mock/spy ########
+recorder.startFoodSearch(null);
+   invoked: -&gt; at com.pseuco.np21.shared.SingleAntNoTrails.run(SingleAntNoTrails.java:100)
+   has returned: &quot;null&quot;
+
+############ Logging method invocation #12 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='Hill', trails=0, initialFood=0, capacity=âˆž}
+);
+   invoked: -&gt; at com.pseuco.np21.shared.SingleAntNoTrails.run(SingleAntNoTrails.java:103)
+   has returned: &quot;null&quot;
+
+############ Logging method invocation #13 on mock/spy ########
+recorder.despawn(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    TERMINATED
+);
+   invoked: -&gt; at com.pseuco.np21.shared.SingleAntNoTrails.run(SingleAntNoTrails.java:104)
+   has returned: &quot;null&quot;
+
+############ Logging method invocation #14 on mock/spy ########
+recorder.stop();
+   invoked: -&gt; at com.pseuco.np21.shared.SingleAntNoTrails.run(SingleAntNoTrails.java:106)
+   has returned: &quot;null&quot;
+
+</pre>
+</span>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.leaveAndInterruptAtHill(AntRunHandler.java:200)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:178)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.1</a> at 13.04.2022, 23:16:48</p>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.pseuco.np21.InterruptionTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-04-13T21:16:44" hostname="DESKTOP-13VUG62" time="0.227">
+  <properties/>
+  <testcase name="interruptManyAnts()" classname="com.pseuco.np21.InterruptionTests" time="0.209"/>
+  <testcase name="interruptOneAnt()" classname="com.pseuco.np21.InterruptionTests" time="0.009"/>
+  <testcase name="interruptOneAntInTime()" classname="com.pseuco.np21.InterruptionTests" time="0.008"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[java.lang.InterruptedException
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:216)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.handleEnterClearingFoodSearch(AntRunHandler.java:109)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:198)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:216)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:216)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:194)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:216)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:216)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+]]></system-err>
+</testsuite>

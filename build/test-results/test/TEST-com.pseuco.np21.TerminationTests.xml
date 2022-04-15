@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.pseuco.np21.TerminationTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2022-04-13T21:16:46" hostname="DESKTOP-13VUG62" time="1.21">
+  <properties/>
+  <testcase name="enoughFoodAndInterruptAtPickup()" classname="com.pseuco.np21.TerminationTests" time="0.045"/>
+  <testcase name="fasterAnts()" classname="com.pseuco.np21.TerminationTests" time="0.059"/>
+  <testcase name="enoughFoodImmediateTermination()" classname="com.pseuco.np21.TerminationTests" time="0.006"/>
+  <testcase name="enoughFoodSimpleThresholdOne()" classname="com.pseuco.np21.TerminationTests" time="0.022"/>
+  <testcase name="enoughFoodAtPickup()" classname="com.pseuco.np21.TerminationTests" time="0.019"/>
+  <testcase name="enoughFoodAtReturn()" classname="com.pseuco.np21.TerminationTests" time="0.034"/>
+  <testcase name="antEatenWhileEnoughFood()" classname="com.pseuco.np21.TerminationTests" time="1.013"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.AntRunHandler.homewardMoving(AntRunHandler.java:226)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:207)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:225)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:225)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:222)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:225)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:225)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.EnterTrailRecorderStuff(AntRunHandler.java:84)
+	at com.pseuco.np21.AntRunHandler.homewardMoving(AntRunHandler.java:226)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:207)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:225)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:225)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.handleEnterClearingFoodSearch(AntRunHandler.java:109)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:198)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+]]></system-err>
+</testsuite>

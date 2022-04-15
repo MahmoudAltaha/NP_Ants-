@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.pseuco.np21.shared.AntRecorderTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-04-13T21:16:45" hostname="DESKTOP-13VUG62" time="0.025">
+  <properties/>
+  <testcase name="run()" classname="com.pseuco.np21.shared.AntRecorderTest" time="0.025"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.pseuco.np21.shared.SingleAntOnlyMaP" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-04-13T21:16:45" hostname="DESKTOP-13VUG62" time="0.029">
+  <properties/>
+  <testcase name="run()" classname="com.pseuco.np21.shared.SingleAntOnlyMaP" time="0.029"/>
+  <system-out><![CDATA[############ Logging method invocation #1 on mock/spy ########
+recorder.start();
+   invoked: -> at com.pseuco.np21.Simulator.run(Simulator.java:49)
+   has returned: "null"
+
+############ Logging method invocation #2 on mock/spy ########
+recorder.spawn(
+    Ant{name='Anthony', impatience=2, disguise=1000}
+);
+   invoked: -> at com.pseuco.np21.Ant.run(Ant.java:264)
+   has returned: "null"
+
+############ Logging method invocation #3 on mock/spy ########
+recorder.enter(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='Hill', trails=3, initialFood=0, capacity=âˆž}
+);
+   invoked: -> at com.pseuco.np21.Ant.run(Ant.java:266)
+   has returned: "null"
+
+############ Logging method invocation #4 on mock/spy ########
+recorder.startFoodSearch(
+    Ant{name='Anthony', impatience=2, disguise=1000}
+);
+   invoked: -> at com.pseuco.np21.Ant.run(Ant.java:271)
+   has returned: "null"
+
+############ Logging method invocation #5 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='Hill', trails=3, initialFood=0, capacity=âˆž}
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.leaveAndInterruptAtHill(AntRunHandler.java:189)
+   has returned: "null"
+
+############ Logging method invocation #6 on mock/spy ########
+recorder.despawn(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    TERMINATED
+);
+   invoked: -> at com.pseuco.np21.AntRunHandler.leaveAndInterruptAtHill(AntRunHandler.java:195)
+   has returned: "null"
+
+############ Logging method invocation #7 on mock/spy ########
+recorder.stop();
+   invoked: -> at com.pseuco.np21.Simulator.run(Simulator.java:75)
+   has returned: "null"
+
+############ Logging method invocation #8 on mock/spy ########
+recorder.start();
+   invoked: -> at com.pseuco.np21.shared.SingleAntOnlyMaP.run(SingleAntOnlyMaP.java:122)
+   has returned: "null"
+
+############ Logging method invocation #9 on mock/spy ########
+recorder.spawn(null);
+   invoked: -> at com.pseuco.np21.shared.SingleAntOnlyMaP.run(SingleAntOnlyMaP.java:124)
+   has returned: "null"
+
+############ Logging method invocation #10 on mock/spy ########
+recorder.enter(null, null);
+   invoked: -> at com.pseuco.np21.shared.SingleAntOnlyMaP.run(SingleAntOnlyMaP.java:125)
+   has returned: "null"
+
+############ Logging method invocation #11 on mock/spy ########
+recorder.startFoodSearch(null);
+   invoked: -> at com.pseuco.np21.shared.SingleAntOnlyMaP.run(SingleAntOnlyMaP.java:127)
+   has returned: "null"
+
+############ Logging method invocation #12 on mock/spy ########
+recorder.leave(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    Clearing{name='Hill', trails=3, initialFood=0, capacity=âˆž}
+);
+   invoked: -> at com.pseuco.np21.shared.SingleAntOnlyMaP.run(SingleAntOnlyMaP.java:130)
+   has returned: "null"
+
+############ Logging method invocation #13 on mock/spy ########
+recorder.despawn(
+    Ant{name='Anthony', impatience=2, disguise=1000},
+    TERMINATED
+);
+   invoked: -> at com.pseuco.np21.shared.SingleAntOnlyMaP.run(SingleAntOnlyMaP.java:131)
+   has returned: "null"
+
+############ Logging method invocation #14 on mock/spy ########
+recorder.stop();
+   invoked: -> at com.pseuco.np21.shared.SingleAntOnlyMaP.run(SingleAntOnlyMaP.java:133)
+   has returned: "null"
+
+]]></system-out>
+  <system-err><![CDATA[java.lang.InterruptedException
+	at com.pseuco.np21.AntRunHandler.leaveAndInterruptAtHill(AntRunHandler.java:200)
+	at com.pseuco.np21.Ant.forwardMoving(Ant.java:178)
+	at com.pseuco.np21.Ant.run(Ant.java:272)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+]]></system-err>
+</testsuite>
